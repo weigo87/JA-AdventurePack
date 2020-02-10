@@ -1,0 +1,61 @@
+@0  = ~Well, I'm leaving.~ 
+@1  = ~Keep to the shadows! There are many dangers lurking in this city. Take care of the Iron Throne, then a lot of things will clear up by themselves. Look for me at Elfsong tavern, when you have progressed further.~
+@3  = ~If you have made progress in the matter, look for me at Elfsong tavern.~
+@4  = ~If you have learned more, then look for me at Elfsong tavern.~ 
+@5  = ~Ah yes, what do we have here? It looks like some busybodies snooping around in our affairs! Busybodies of the worst kind, it seems to me!~
+@6  = ~Damn Harper's brood! Why must you always put your dirty nose in things not concerning you, huh?! A bad habit I intend to expel! Come on, guys, show them!~
+@7  = ~Oh, no! You again? Will you continue to keep us from our duties with your lack of understanding?~ 
+@8  = ~What exactly are these duties?~
+@9  = ~By the way you look these can hardly be honorable duties... No, really, you are very much like a couple of tramps I dealed with recently.~ 
+@10  = ~No, alright, I'm already gone.~
+@11 = ~That's really none of your business. Listen, we do know of your role in this game. Although we are enemies of the Iron Throne, that still does not make us friends. So stay away from us.~
+@12 = ~Really? You are interested in the schemes of the Iron Throne, too?~ 
+@13 = ~How do you know about "my role in this game"?~
+@14 = ~Oh well. Farewell.~ 
+@15 = ~For that you will suffer indescribable pain! Guys, tear the grin off their faces!~
+@16 = ~Quiet now! This is nothing to be discussed publicly in this city. Examine the tower of the Iron Throne in the west section of the city. That's all I can tell you at this time.~
+@17 = ~Well, I have my sources and I am well informed about your past deeds. You could actually prove to be beneficial in this matter. Examine the tower of the Iron Throne in the west section of the city. That's all I can tell you at this time.~
+@18 = ~Please keep away. Your presence puts us all in danger.~ 
+@19 = ~Shut hut harper bitch! Save us your hypocritical babble of do-gooders and get ready to die!~
+@20 = ~Is Xzar dead? Everything is looking dark, that's not a good omen for our plans. The events here in Baldur's Gate slowly but surely are running out of control. We will have to reconsider our plans.~ 
+@21 = ~I wish you luck with your business against the Iron Throne. That's all that you can expect from me.~ 
+@22 = ~Xzar really moves in bad company. That's not like him...~
+@23 = ~What are people like you doing here?~ 
+@24 = ~There you are. Did you take a closer look at the tower of the Iron Throne?~
+@25 = ~Yes, we have examined the tower of the Iron Throne and found that their leaders Rieltar and Bruno are behind it all. They are currently in Candlekeep. So I'll have to go there.~
+@26 = ~No, we didn't make any progress yet. Farewell.~
+@27 = ~You are lippy, scheming bitch! And as usual for your kind, you do not have the slightest clue what is really going on here.~
+@28 = ~Did you already make some progress in your investigations, <CHARNAME>?~
+@29 = ~You have done me an inestimable service, busting the headquarters of the Iron Throne. For me and my people this was impossible, because the city already believed that our organization is behind all the events. So we had to keep a low profile.~
+@30 = ~Now, go to Candlekeep and find out what Rieltar and Bruno are planning. Good luck, you will need it!~
+@31 = ~Xzar's backers
+
+We have reported to Xzar's superior, Niemain, what happened in the tower of the Iron Throne. He was grateful to us for our efforts, because we found evidence that proves, contrary to rumors, that the Zhentarims have nothing to do with the recent events of the Sword Coast.~
+@32 = ~Ha! I knew that you're somehow involved in the matter. You are like a cancer that has infected the world!~
+@33 = ~I think, who or what "bad company" means is a matter of viewpoint.~
+@34 = ~I'm here to investigate if *people of your kind* have something to do with the iron crisis and threat of war to Amn. We have always suspected the black network...~
+@35 = ~Well, we'll see...~
+@36 = ~The chicken  and the egg... <CHARNAME>, do you understand now?~
+@37 = ~Ha! The nutty wizard has finally been caught, suffocated in his own blood! Let the wolves feast on the scumbag!~
+@38 = ~Xzar was an extremely useful tool, there was more to him than you want to believe at first glance.~
+@39 = ~However, we will not miss his mad babbling!~
+@40 = ~*You* are now no longer of use to us, Montaron. A cold-blooded killer can be hired in every dock tavern, while Xzar on the other hand was very useful to our plans.~
+@41 = ~Yes! Be gone with you, you just go and hide! Damn pack of mages!~
+@42 = ~Ah. Look, Master. Here they are.~
+@43 = ~Damn fool...~
+@44 = ~You better speak to Niemain.~
+@45 = ~I have nothing to tell you. Please go.~
+@46 = ~Eyes and ears everywhere. Keep to the shadows.~
+@47   = ~You no longer travel with Xzar? Then you are no longer useful to me. Farewell.~
+@48   = ~Quick! We have little time. Back there in Candlekeep you caused great confusion and need to take care. The Flaming Fist is looking for you and the Iron Throne wants you dead for murdering Rieltar and Bruno.~
+@49   = ~I didn't kill the two. It's a conspiracy of Sarevok!~
+@50   = ~We already know this. Can you tell me something else?~
+@51   = ~It doesn't matter. They want to see you hang. Your only chance is to forestall them. You need to find out soon what's up with Sarevok and where he is.~
+@52   = ~The situation in this city hasn't changed for the better. Angelo Dosan, a faithful lackey of Sarevok, commands the Flaming Fist since Scar has been killed, and rumor has it Duke Eltan is dying. You must not waste any time!~
+@53   = ~Endgame
+
+Niemain of the Zentarim didn't encourage me. Everything seems to turn against us and the triumph of Sarevok seems imminent.~
+
+/* new for v 0.7 */
+@54  = ~<CHARNAME>.~
+@55  = ~What now?!~

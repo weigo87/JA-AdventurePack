@@ -1,0 +1,32 @@
+/* #14889 */
+@0    = ~He's out there. He's coming. I can feel his footsteps, following me. The scent of rotting flesh. He's coming for us all.~
+@1    = ~Whom you're speaking of?~
+@2    = ~On the contrary! He's coming only for you.~
+/* #14890 */
+@3    = ~I... I killed him. But he's out there, he's coming this way, I can f— feel it.~
+@4    = ~What are you talking about, man?!~
+@5    = ~Who did you kill?~
+/* #14891 */
+@6    = ~I was a paladin once. I fought on the side of good, but it all comes to naught... I... I killed him, my brother in the faith... I was jealous, I was... foolish. When he comes, let him be. At least there will be justice then.~
+@7    = ~Out of the question! You want us to watch as the revenant mauls you? Forget it!~
+@8    = ~Alright. If death is your wish, I won't deny it to you.~
+/* #14893 - second half */
+@9    = ~My brother in the faith... dead. I murdered him in cold blood... I was jealous, I was... a fool. And now I am twice as wretched. Kill me in this tortured place! At least there will be some justice then.~
+@10   = ~I respect your wish. If it has to be I'll release you from your anguish.~
+@11   = ~I won't have your death on my conscience. *You* of all should understand that. Maybe you made a grave error, but one can also learn from the worst mistakes. Make use of the bitter experience and strive to be a good example for others in the future.~
+/* #14894 */
+@12   = ~What could you ever hope to learn from a wretched fool like me? Learn from my example, at least, and seek not to kill that which is good in the world.~
+@13   = ~A wisdom that is worth living for! You don't deserve to die, Svlast.~
+@14   = ~Pain is the punishment for your sins. Learn to live with it.~
+/* #14895 */
+@15   = ~Please, just leave me to my misery.~
+@16   = ~Svlast's Torment
+
+I tried to convince poor Svlast that despite all the sorrow and pain life is always preferable to death. For the moment the fallen paladin seems to listen to my words, but I doubt I did convince him for good.~
+/* #14896 */
+@17   = ~Much as I may welcome death, I will not face it without a fight.~
+/* #15703 */
+@18   = ~Svlast's Torment
+
+Having survived the revenant's assault with our assistance, poor and wretched Svlast has begged us to complete its task... The day is dark within these ruins, and I fear it's growing ever darker.~
+@19   = ~Please... just leave me alone.~

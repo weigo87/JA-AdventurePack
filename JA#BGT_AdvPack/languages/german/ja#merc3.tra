@@ -1,0 +1,40 @@
+@0    = ~Helft mir! Ihr müsst mir helfen, bitte. Ich habe... eine Menge Blut verloren.~
+@1    = ~Was ist denn mit Euch passiert? Wer hat das getan?~
+@2    = ~Zieh Leine, toter Mann.~
+@3    = ~Ihr könnt mich doch nicht hier sterben lassen...~
+@4    = ~Räuber! Räuber am Küstenweg! Sie haben meine Karawane angegriffen... alle tot... meine arme Shelley. - (schluchz) - Ich bin so schwach... so kalt...~
+@5    = ~Hier, nehmt diesen Heiltrank.~
+@6    = ~Ich habe hier dieses Heilungselixier für Euch. Das wird Euch helfen.~
+@7    = ~Hier, nehmt diese Guten Beeren.~
+@8    = ~Wir werden sehen, was wir für Euch tun können. Haltet noch einen Moment aus.~
+@9    = ~Ihr seid so gut wie tot. Wir können Euch nicht helfen.~
+@10   = ~Überfall auf die Karawane
+
+Eine Karawane wurde am Küstenweg von Räubern überfallen und geplündert. Die Reisenden sind allesamt tot oder verschleppt. Einer der Händler lag noch im Sterben, als wir ihn fanden, aber es gibt wohl keine Hoffnung für ihn. Vielleicht sollte ich ihn erlösen, ehe die wilden Tiere sich seiner annehmen.~
+@11   = ~Ich bin gerettet! Ihr habt mich gerettet. Die Götter mögen Euch segnen. Wie kann ich Euch das nur je vergelten?~
+@12   = ~Ihr könntet uns Geld geben, und zwar eine ganze Menge.~
+@13   = ~Überfall auf die Karawane
+
+Wir konnten ein Opfer des Karawanenüberfalls am Küstenweg retten. Der Händler war dem Tode nahe, als wir ihn fanden. Leider haben ihm die Räuber alles Geld abgenommen, sodass die Belohnung für unsere gute Tat ausblieb.~
+@14   = ~Ihr könntet uns noch etwas über diese Räuber erzählen, von denen Ihr gesprochen habt.~
+@15   = ~Überfall auf die Karawane
+
+Wir konnten ein Opfer des Karawanenüberfalls am Küstenweg retten. Der Händler war dem Tode nahe, als wir ihn fanden. Ich würde sagen, wir kamen genau im richtigen Augenblick.~
+@16   = ~Gar nicht, aber danke für das Angebot.~
+@17   = ~Ich bezweifle, dass Ihr überhaupt etwas für uns tun könnt. Wir sind mächtige Abenteurer, und Ihr seid nur ein armseliger Bauer.~
+@18   = ~Überfall auf die Karawane
+
+Wir konnten ein Opfer des Karawanenüberfalls am Küstenweg retten. Der Händler war dem Tode nahe, als wir ihn fanden. Seine Dankbarkeit hielt sich jedoch unverschämterweise in Grenzen.~
+@19   = ~Ich habe kein Geld, das ich Euch geben könnte. Es... tut mir Leid, aber ich muss gehen.~
+@20   = ~Das kann ja wohl nicht wahr sein! Es gab keinen Grund, auf einmal so arrogant zu werden. Entschuldigt, dass ich so viel Zeit Eures ach so wichtigen Lebens vergeudet habe!~
+@21   = ~Ich kann nicht viel über diese Räuber sagen. Die sind einfach aus dem Nichts gekommen. Plötzlich standen da Söldner - sowohl Hobgoblins als auch Menschen - vor uns und sagten, wir sollten uns ergeben und unsere Eisenvorräte ausliefern, aber unser Hauptmann hat sich geweigert! Dieser dämliche Idiot. Wie kann man nur so uneigennützig sein! Die sind wie ein Rudel ausgehungerter Wölfe über uns hergefallen. Ich bin nur knapp mit dem Leben davon gekommen. Das ist es, was ich zu sagen habe. Ich werde mich jetzt besser wieder auf den Weg machen, ich muss die Familien derer benachrichtigen, die gestorben sind.~
+@22   = ~Räuber!
+
+Nachdem ich einen schwer verletzten Händler heilte, erzählte er mir, dass die Räuber, die seine Karawane überfallen hatten, sowohl aus Menschen als auch aus Halbmenschen bestanden und es speziell auf die Eisenvorräte abgesehen hatten.~
+@23   = ~Ich hab in letzter Zeit viel gehört. Eisen scheint ziemlich knapp zu sein, wegen der Räuber und der Probleme in der Mine von Nashkell. Zwischen Baldurs Tor und Amn muss es ernste Spannungen geben. Es würde mich nicht wundern, wenn's da bald zum Krieg kommt.~
+@24   = ~Räuber!
+
+Nachdem ich einen schwer verletzten Händler heilte, erzählte er ein paar wage Dinge über Eisenmangel, Räuber und Krieg.~
+@25   = ~Euch würde ich niemals über den Weg trauen!~
+@26   = ~Jaa? Helft mir, ich ... ah, werde schwächer...~
+@27   = ~Wir sind bald mit Hilfe zurück.~

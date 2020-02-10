@@ -1,0 +1,15 @@
+IF
+	AttackedBy([GOODCUTOFF],DEFAULT)
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		Enemy()
+END
+
+IF
+	Allegiance(Myself,NEUTRAL)
+	Allegiance("Ragefast",ENEMY)
+THEN
+	RESPONSE #100
+		Enemy()
+END

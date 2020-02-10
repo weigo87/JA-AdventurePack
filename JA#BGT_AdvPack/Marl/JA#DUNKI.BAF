@@ -1,0 +1,12 @@
+IF
+	Global("JA#DUNKIN","%Beregost_FeldepostsInn_L1%",0)
+	OR(2)
+		Global("JA#MARL_LOSES","%Beregost_FeldepostsInn_L1%",1)
+		Global("JA#MARL_WINS","%Beregost_FeldepostsInn_L1%",1)
+THEN
+	RESPONSE #100
+		SetGlobal("JA#DUNKIN","%Beregost_FeldepostsInn_L1%",1)
+		StartDialogueNoSet([PC])
+END
+
+

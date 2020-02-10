@@ -1,0 +1,9 @@
+IF
+	Entered([ANYONE])
+	Global("JA#HUSAM_SECRET","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("JA#HUSAM_SECRET","GLOBAL",1)
+END
+
+

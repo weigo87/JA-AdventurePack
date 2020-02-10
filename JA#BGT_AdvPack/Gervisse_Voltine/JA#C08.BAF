@@ -1,0 +1,34 @@
+IF
+	OnCreation()
+	Global("JA#VOLT_CUT","JA#C08",0)
+	GlobalGT("JA#GERVIS_QUEST","GLOBAL",0)
+THEN
+	RESPONSE #100
+		ActionOverride("JA#VOLTI",DestroySelf())
+END
+
+IF
+	Global("JA#VOLT_CUT","JA#C08",0)
+	Global("JA#GERVIS_QUEST","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("JA#VOLT_CUT","JA#C08",1)
+		ClearAllActions()
+		MultiPlayerSync()
+		StartCutSceneMode()
+		StartCutScene("JA#CUVOL")
+END
+
+IF
+	Global("JA#VOLT_QUEST","GLOBAL",1)
+	Global("c#JA#_VoltineLeavesJA#C08","MYAREA",0)
+THEN
+	RESPONSE #100
+		SetGlobal("c#JA#_VoltineLeavesJA#C08","MYAREA",1)
+		ClearAllActions()
+		MultiPlayerSync()
+		StartCutSceneMode()
+		StartCutScene("JA#CUVOM")
+END
+
+

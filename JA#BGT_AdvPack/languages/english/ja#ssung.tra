@@ -1,0 +1,29 @@
+/* #6388 */
+@0    = ~I'm just a hired guard, it's not my job to know much. Sorry buddy.~
+/* #1000 */
+@1    = ~You are not allowed entry to this building.~
+/* #1006 */
+@2    = ~We're here to see Jhasso.~
+/* #1007 */
+@3    = ~Why not?~
+/* #1008 */
+@4    = ~Okay, see you later.~
+/* #1001 */
+@5    = ~In that case, please wait here while I inform him of your arrival.~
+/* #1002 */
+@6    = ~Because this isn't a public building, imbecile. Off with you.~
+@7    = ~They... they were shapeshifters all along? How lucky we survived. I'll never need anything of that sort ever again!~
+@8    = ~You again? At the moment, access is permitted only to members of the Seven Suns.~
+@9    = ~Okay. Then we'll leave again.~
+/* #1005 */
+@10   = ~Kill them? But that's against the law.~
+@11   = ~Nobody said anything about shape-shifting monsters. For that the pay is too low, I'll be gone.~
+/* #1003 */
+@12   = ~What are you doing here? Intruders, we have intruders!~
+/* #1004 */
+@13   = ~If you surrender, we will peaceably escort you from the premises.~
+/* #1009 */
+@14   = ~We're not surrendering without a fight.~
+/* #1010 */
+@15   = ~That sounds fine to us. We surrender.~
+@16   = ~Then this was your last stupidity!~

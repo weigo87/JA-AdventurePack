@@ -1,0 +1,35 @@
+IF
+	Global("JA#BRAUN_TOT","%NashkelCarnival%",1)
+	Global("JA#VELVET_WEISS","LOCALS",1)
+THEN
+	RESPONSE #100
+		SetGlobal("JA#VELVET_WEISS","LOCALS",0)
+		SetGlobal("JA#VELVET_WIN","LOCALS",1)
+END
+
+IF
+	Global("JA#WEISS_TOT","%NashkelCarnival%",1)
+	Global("JA#VELVET_BRAUN","LOCALS",1)
+THEN
+	RESPONSE #100
+		SetGlobal("JA#VELVET_BRAUN","LOCALS",0)
+		SetGlobal("JA#VELVET_WIN","LOCALS",1)
+END
+
+IF
+	Global("JA#WEISS_TOT","%NashkelCarnival%",1)
+	Global("JA#VELVET_WEISS","LOCALS",1)
+THEN
+	RESPONSE #100
+		SetGlobal("JA#VELVET_WEISS","LOCALS",0)
+		SetGlobal("JA#VELVET_WIN","LOCALS",2)
+END
+
+IF
+	Global("JA#BRAUN_TOT","%NashkelCarnival%",1)
+	Global("JA#VELVET_BRAUN","LOCALS",1)
+THEN
+	RESPONSE #100
+		SetGlobal("JA#VELVET_BRAUN","LOCALS",0)
+		SetGlobal("JA#VELVET_WIN","LOCALS",2)
+END

@@ -1,0 +1,19 @@
+IF
+	Global("JA#THRONE_DOOR","JA#C04",0)
+	GlobalGT("EnteredIronThrone","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("JA#THRONE_DOOR","JA#C04",1)
+		Unlock("DOOR 01")
+		OpenDoor("DOOR 01")
+END
+
+IF
+	Global("JA#SEWER_DOOR","JA#C04",0)
+	Global("EnteredSewer","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("JA#SEWER_DOOR","JA#C04",1)
+		Unlock("DOOR 02")
+		OpenDoor("DOOR 02")
+END

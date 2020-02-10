@@ -1,0 +1,61 @@
+/* unused: Journal entry:
+When we charmed Deagan, we learned that there have been many troubles at the Merchants' League Estate.
+(StrRef: 6580)*/
+
+
+/* #3684 */
+@0  = ~My name is Deagan, and I'm a servitor to Aldeth Sashenstar. Recently there have been problems at the Merchants' League Estate, which my master owns. He gave me orders to find a team of mercenaries that would be able to help him out. I really don't have much more to say, unless you'd like to hear about the problems I've been having with my wife. No? Okay then.~
+/* #1262 */
+@1  = ~Can I have a moment of your time?~
+/* #1269 */
+@2  = ~No, get out of my face.~
+/* #1270 */
+@3  = ~What do you want?~
+/* #1263 */
+@4  = ~You needn't be rude.~
+/* #1264 */
+@5  = ~I have heard around town that a free lance group of mercenaries arrived recently. Would you be those people?~
+/* #1271 */
+@6  = ~Got the wrong people, now we have to be on our way.~
+/* #1272 */
+@7  = ~What's it to you?~
+/* #1265 */
+@8  = ~Before we go on, perhaps it would be well if I introduced myself. I am Deagan, employee of the Merchants' League. My master has need of services that only you would be able to provide. He is one of the owners of the Merchants' League Estate. If you were willing to speak with him in private, he would pay you 5 gold each, before you agreed to do anything for him. What do you say?~
+/* #1273 */
+@9  = ~I say nay.~
+/* #1274 */
+@10 = ~Free gold, why not?~
+/* #1266 */
+@11 = ~If you would be kind enough to follow me, I can show you to him right away. He wishes to meet with you at the Three Old Kegs.~
+/* #6579 */
+@12 = ~Deagan's master
+
+We have agreed to follow a man named Deagan to see his master in the Three Old Kegs inn.~
+/* #1267 */
+@13 = ~I thought you agreed to come. You haven't changed your mind, have you?~
+/* #1275 */
+@14 = ~Hold your horses, we're coming!~
+/* #1276 */
+@15 = ~Actually we have, bye.~
+/* #1268 */
+@16 = ~This is my master, Aldeth Sashenstar.~
+@17 = ~Deagan's master
+
+We followed Deagan to the "Three Old Kegs" and met his master. As it turns out, it is no other than Aldeth Sashenstar, who I already met in the Cloakwood Forest.~
+@18 = ~Hello. You should really consider the offer of my master.~
+@19 = ~Hello. There you are. Were you able to help my master yet?~
+@20 = ~Not yet. What can you tell me about the Merchant's League?~
+@21 = ~We are still working on it. Farewell.~
+@22 = ~I don't know anything specific, but apparently, the business partner of my master did pretty much crap lately. Well, wasting gold and stuff. I think Mr. Sashenstar fears the Mechant's League could soon go bankrupt if they carry on like this.~
+@23 = ~Heyho! Hail to our heroes who saved us from the grayskinned mirrorfaces!~
+@24 = ~There you are again. Wish to have a little rest from your adventures, yes?~
+@25 = ~Ah, there you are. It's me, Deagan. Finally, I had feared the Flaming Fist would have caught you before I could do so. You are in great danger, my friends.~
+@26 = ~I will bring you immediately to my master Aldeth Sashenstar. You urgently need the help of influential people and master Sashenstar hopes he can now repay your past deeds. Follow me and hurry, I bring you to the headquarters of the Merchant's League, where he expects you.~
+@27 = ~We can use the help of a good friend more than ever now. Brings us to Aldeth.~
+@28 = ~I'm sorry, Deagan. But we have our own plans and we can manage unaided.~
+@29 = ~Follow me then, heroes.~
+@30 = ~The entire town guard and countless mercenaries are on your tail. I must ask you urgently to accept the outstretched hand of my master.~
+@31 = ~Well, probably you are right, Deagan. Bring us to Aldeth.~
+@32 = ~My mind is made up. Give Aldeth my thanks, but I'll get through this alone.~
+@33 = ~I need no one's help. Get out of my sight!~
+@34 = ~All right, but you have been warned. I hope you know what you are doing. Farewell.~

@@ -1,0 +1,25 @@
+@0    = ~Ah, my friend! Nice to see you. People like you have nothing to fear from the Guards.~
+@1    = ~Ah, the heroes of Nashkel! A job well done in the mines, I can tell you! We would have sent down a few of our men, but we couldn't spare no one. Baldur's Gate will send forces to Beregost, one hears.~
+@2    = ~Thank you, we have to go.~
+@3    = ~Can I ask you a few questions?~
+@4    = ~Ah, you're back. Cause no trouble in the city and enjoy the stay.~
+@5    = ~Welcome back. What brings you to Nashkel this time?~
+@6    = ~But yes, what do you want to know?~
+@7    = ~Are there any strange events in the area?~
+/* #5810 + title */
+@8    = ~The Curse of the Commander
+
+The guards in Nashkel have been unable to locate their mad Captain Brage.~
+@9    = ~What do you know about the problems in the mines?~
+@10   = ~The investigation of the Nashkel Mines
+
+Bardolan of the Amnish Guards in Nashkel could not tell me anymore about the problems in the mines. People seem to think that there are "demons" at work there.~
+@11   = ~What can you tell me about the town of Nashkel?~
+@12   = ~Oh, nothing. Farewell.~
+@13   = ~We are looking for our former Commander, Brage. One night, he slew his wife, his children and all those who have seen him in a fit of rage. He then fled to the hills. He's still out there somewhere, and we mourn him just like his victims...~
+@14   = ~Otherwise we roam throughout the area after goblins, xvarts and half-orcs. We've got our hands full, trying to protect the outlying farms and caravans.~
+@15   = ~I have one more question.~
+@16   = ~Thank you, farewell.~
+@17   = ~Nobody knows the reason why the iron is brittle and useless lately. Furthermore, there are rumors that demons lurk in the depths of the mines.~
+@18   = ~We are the most northerly outpost of Amn. Due to its remoteness, Nashkel is relatively independent. In winter the passes in Cloudpeak Mountains are usually snowy and we are completely cut off from the rest of Amn.~
+@19   = ~The Ghastkill family is currenly in charge, Berrun is our mayor, but many other Amnish families send their representatives here.~

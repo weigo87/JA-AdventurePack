@@ -1,0 +1,27 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId("Ramazith")
+		SetGlobal("JA#RamazithDeal","GLOBAL",2)
+		MultiPlayerSync()
+		Wait(1)
+		FaceObject("Abela")
+		ActionOverride("Abela",DestroyAllEquipment())
+		Wait(2)
+		SetSequence(SEQ_CAST)
+		Wait(1)
+		CreateVisualEffectObject("SPFINGER","Abela")
+		Kill("Abela")
+		Wait(4)
+		FadeToColor([20.0],0)
+		Wait(3)
+		ActionOverride("Abela",DestroySelf())
+		FaceObject([PC])
+		Wait(2)
+		FadeFromColor([20.0],0)
+		Wait(1)
+		StartDialogueNoSet([PC])
+END
+
+

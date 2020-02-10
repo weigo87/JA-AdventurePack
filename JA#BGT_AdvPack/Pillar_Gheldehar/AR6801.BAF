@@ -1,0 +1,12 @@
+IF
+	OnCreation()
+	Global("JA#PILAR_SPWN","%FriendlyArmInn_L1%",0)
+	GlobalGT("Chapter","GLOBAL",%tutu_chapter_3%)
+THEN
+	RESPONSE #100
+		SetGlobal("JA#PILAR_SPWN","%FriendlyArmInn_L1%",1)
+		CreateCreature("JA#PILAR",[595.539],14)
+		Continue()
+END
+
+

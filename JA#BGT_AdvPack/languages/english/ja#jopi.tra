@@ -1,0 +1,44 @@
+@0    = ~Well, got news about the bandits?~
+@1    = ~Yes, we wiped out their camp in the Wood of Sharp Teeth. The journey along the Coast Way should be much safer now.~
+@2    = ~No, everything's the same.~
+@3    = ~Wonderful, you "Heroes of the Wood of Sharp Teeth"! Then I can finally continue my journey to Baldur's Gate. Ucle Ragefast is probably very worried... although, most probably he's forgotten already I wanted to pay him a visit, the old curmudgeon.~
+@4    = ~Hmph! Still I have to wait until the roads are free again. Damn bandit rabble!~
+@5    = ~Were you out and about? Your boots look like it. Oh, I don't want to languish anymore in here, but what can one do?~
+@6    = ~I would even brandish a sword, if I had the courage to stand against the bandits. But that's probably something for people like you.~
+@7    = ~Hey! You there! Do you remember? We met at the Friendly Arm.~
+@8    = ~Uh, yeah. Sure ... How are you doing?~
+@9    = ~Get out! Beggars get nothing here!~
+@10   = ~What can I say! So much for "Heroes of the Wood of Sharp Teeth". You're nothing but insolent scoundrels.~
+@11   = ~Not good at all. But well, maybe you are just the right ones to help me.~
+@12   = ~I'm here to visit my uncle Ragefast, but the old grouch has lost his mind completely. One of those little elf wenches has turned his head. He even threatened me with violence if I get too close to her, and threw me out of his house!~
+@13   = ~I'm scared that he will turn me into a rabbit should I walk through his door again. Can you help me? Someone has to counter the charms this woman put onto my uncle before anything bad happens.~
+@14   = ~No problem. We will do it.~
+@15   = ~Do you think we are interested in your story? We have better things to do. Out of the way!~
+@16   = ~Great, thanks! Your reputation as "Heroes of the Wood of Sharp Teeth" runs ahead of you! Please hurry, he lives right in this house.~
+@17   = ~And? Have you been able to bring my uncle to reason?~
+@18   = ~He was completely out of his mind and attacked us in his madness. Unfortunately, we had to kill him. Sorry, Jopi!~
+@19   = ~No, not yet.~
+@20   = ~Uncle Grumpyskin is dead? How should I tell this to my mother?~
+@21   = ~Well, thanks for your efforts. I'll need to be dealing with the inheritance issues now. Farewell.~
+@22   = ~The seduced uncle Ragefast
+
+I told Jopi that I killed his uncle. It didn't seem to matter to him a great deal. Apparently, the two were not close. Family affairs are just one of those things...~
+@23   = ~Hi, Grumpyskin... um, Uncle Ragefast.~
+@24   = ~Jopi? Didn't I tell you to disappear?~
+@25   = ~Yes, but that was when you were still obsessed with this girl.~
+@26   = ~That had nothing to do with anything. I don't wanna see you here, get out!~
+@27   = ~But, dear uncle, we are related after all!~
+@28   = ~Ha! Your mother is my sister, but that's it. Since she married that poor bastard, your father, I have not seen her again.~
+@29   = ~And I don't like you, either. You are a useless windbag, Jopi.~
+@30   = ~As you wish. But if you still feel some sympathy for your sister, then you should help her.~
+@31   = ~Hmph! What do you want, Jopi?~
+@32   = ~Well, we have some difficulties at home, since daddy...~
+@33   = ~Pff! That fool!~
+@34   = ~So, how much do I have to pay you so that you go home and leave me alone?~
+@35   = ~Well, uh... three... four... five hundred?~
+@36   = ~All right, here, take the money and disappear! And listen carefully: I don't want to see you here ever again, understand?!~
+@37   = ~All right, dear uncle. And thank you!~
+@38   = ~(Yeah, just get lost...)~
+@39   = ~The seduced uncle Ragefast
+
+Jopi was glad that his uncle is no longer bewitched by the nymph Abela. This gave him the opportunity to beg his uncle to lend him some money. Ragefast seems to have a rough shell, but for his family he was still ready to loosen his purse. Yeah, the dear family...~

@@ -1,0 +1,93 @@
+ALTER_TRANS KELDDA
+BEGIN 4 END // state number (can be more than one)
+BEGIN 0 END // transition number (can be more than one)
+BEGIN // list of changes, see below for flags
+  "ACTION" ~SetGlobal("JA#MARL_GUARD","GLOBAL",3)
+ActionOverride("JA#GUAB1",EscapeArea())
+ActionOverride("JA#GUAB2",EscapeArea())
+ActionOverride("JA#GUAB3",EscapeArea())
+TakePartyGold(300)~
+END
+
+ALTER_TRANS KELDDA
+BEGIN 5 END // state number (can be more than one)
+BEGIN 0 END // transition number (can be more than one)
+BEGIN // list of changes, see below for flags
+  "ACTION" ~SetGlobal("JA#MARL_GUARD","GLOBAL",3)
+ActionOverride("JA#GUAB1",EscapeArea())
+ActionOverride("JA#GUAB2",EscapeArea())
+ActionOverride("JA#GUAB3",EscapeArea())
+TakePartyGold(200)~
+END
+
+ADD_STATE_TRIGGER KELDDA 1 ~GlobalLT("JA#MARL_GUARD","GLOBAL",1)~
+
+REPLACE_STATE_TRIGGER KELDDA 3 ~Dead("bassilus")
+PartyHasItem("MISC04")
+!Global("BassilusDead","GLOBAL",2)
+GlobalGT("JA#MARL_GUARD","GLOBAL",0)~
+
+ALTER_TRANS KELDDA
+BEGIN 3 END // state number (can be more than one)
+BEGIN 0 END // transition number (can be more than one)
+BEGIN // list of changes, see below for flags
+  "ACTION" ~SetGlobal("B!GavinBassilusQuest","GLOBAL",5)
+GiveGoldForce(1000)
+SetGlobal("BassilusDead","GLOBAL",2)
+AddexperienceParty(500)
+EraseJournalEntry(%kelddath1%)
+EraseJournalEntry(%kelddath2%)
+EraseJournalEntry(%kelddath3%)
+EraseJournalEntry(%kelddath4%)
+EraseJournalEntry(%kelddath5%)
+EraseJournalEntry(%kelddath6%)
+EraseJournalEntry(%kelddath7%)
+TakePartyItem("MISC04")~
+END
+
+
+//Dunkin
+
+ALTER_TRANS DUNKIN
+BEGIN 7 END // state number (can be more than one)
+BEGIN 0 END // transition number (can be more than one)
+BEGIN // list of changes, see below for flags
+  "ACTION" ~ClearAllActions()~
+END
+
+//misc.de
+REPLACE_STATE_TRIGGER DUNKIN 5 ~Global("JA#DUNKIN","%Beregost_FeldepostsInn_L1%",1)~
+
+ALTER_TRANS DUNKIN // file name
+BEGIN 5 END // state number (can be more than one)
+BEGIN 0 END // transition number (can be more than one)
+BEGIN // list of changes, see below for flags
+  "ACTION" ~SetGlobal("JA#DUNKIN","%Beregost_FeldepostsInn_L1%",2)~
+END
+
+//Marl misc.d
+
+ALTER_TRANS MARL // file name
+BEGIN 16 END // state number (can be more than one)
+BEGIN 0 END // transition number (can be more than one)
+BEGIN // list of changes, see below for flags
+  "ACTION" ~SetGlobal("JA#MARLDLG","LOCALS",1)ChangeEnemyAlly(Myself,NEUTRAL)MoveToPoint([701.773])~
+END
+
+ADD_STATE_TRIGGER MARL 18 ~Global("JA#MARLDLG","LOCALS",0)~
+
+ALTER_TRANS MARL // file name
+BEGIN 18 END // state number (can be more than one)
+BEGIN 0 END // transition number (can be more than one)
+BEGIN // list of changes, see below for flags
+  "ACTION" ~SetGlobal("JA#MARLDLG","LOCALS",1)~
+END
+
+APPEND MARL
+
+IF ~Global("JA#MARLDLG","LOCALS",1)~ THEN BEGIN JA#MARL_1
+SAY @9
+IF ~~ THEN EXIT
+END
+
+END

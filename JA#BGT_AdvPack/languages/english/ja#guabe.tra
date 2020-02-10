@@ -1,0 +1,81 @@
+@0  = ~There, here are the suspects.~
+/* #2442 */
+@1  = ~Hold your place right there! Brawling is one thing, but you use a blade or magic, and that is unreasonable force! You'll have to come with us for judgment before Kelddath Ormlyr. Follow, or we will force you!~
+@2  = ~All right, we will follow you.~
+@3  = ~Draw your weapons, you're a dead man!~
+/* # 2443 */
+@4  = ~Hold and lower your weapons! Brawling we could have overlooked, but stacking the odds by teaming up on one man is not a brawl, it's a beating! You'll have to come with us for judgment before Kelddath Ormlyr. Follow, or we will force you!~
+/* #363 */
+@5  = ~I advise you to seek lodging here in Beregost, friend. The roads out are treacherous at best, but the bandits make travel suicide.~
+/* #9029 */
+@6  = ~You're not welcome here!~
+/* #366 */
+@7  = ~Move along, citizen.~
+/* #364 */
+@8  = ~Officially, if you're attacked by any of the raiders, you should give 'em whatever they want. We get fewer leads off of corpses.~
+/* #6952 + title */
+@9  = ~Bandits!
+
+We were told by the guards in Beregost not to resist any of the bandits' demands if we were to be confronted by them.~
+/* #365 */
+@10 = ~Off the record, if I was attacked by those thieving bandit bastards, I'd shaft 'em good with about three feet o' steel! That would get me a heroes' tombstone!~
+@11 = ~Greetings!~
+@12 = ~Who are you?~
+@13 = ~Greetings to you too. We need to move on. Farewell.~
+@14 = ~Lately travelers and villagers reported that in the area southwest of Beregost hordes of zombies gathered, supposedly under the command of a certain Bassilus.~
+/* #362 */
+@15 = ~A lot of missing livestock lately, but it's puzzling. It's not the bandit's style to be raiding farms.~
+@16 = ~On the farms around Beregost cattle is missing.~
+/* #368 */
+@17 = ~The bandits roaming the Coastway road are more organized than mere thieves. I'd almost say mercenary, but such talk will get me sacked.~
+/* #369 */
+@18 = ~My blade and armor are so worn, they are just this side of useless!~
+/* #370 */
+@19 = ~If this iron shortage goes on much longer, I will be reduced to wearing leather and swinging a club! This guard is crippled!~
+/* #6954 + title */
+@20 = ~The iron shortage
+
+The guards of Beregost are worried that the iron shortage has crippled their ability to function.~
+/* #372 */
+@21 = ~Zombies ain't usually much of a fight for a seasoned group o' fighters, but I hear tell that Bassilus keeps 'em well organized. What ye need is time to position for advantage.~
+/* #6956 */
+@22 = ~The mad Bassilus
+
+A guard in Beregost was talking about "Bassilus," and "zombies."~
+/* #6950 */
+@23 = ~I'm a guard who keeps the peace in Beregost. Recently there's been a lot of strange rumors about.~
+@24 = ~What kind of rumors?~
+@25 = ~Has something strange happened in Beregost lately?~
+@26 = ~What do you know of the iron crisis?~
+@27 = ~What can you tell me about the outlaws that make the Coast Way unsafe?~
+@28 = ~Very well. Farewell.~
+@29 = ~No time to chat, I'm on duty.~
+@30 = ~Now listen to me! After work is the best time of the day and we want to get drunk here in peace, so you'd better take care of your own stuff!~
+@31 = ~Hey! Go talk to someone else.~
+@32 = ~Hmph. Stop that stupid jabbering!~
+@33 = ~As a member of the guard I have certain privileges, even at the bar. So, wait your turn!~
+/* #371 */
+@34 = ~5,000 gold! It's a soldier's wage for a lifetime!~
+@35 = ~If I say so! The old Kelddath has apparently reached deeply into the temple treasury.~
+@36 = ~You can say that! And we have to drink this dishwater!~
+@37 = ~On the other hand I am glad that we do not have to march out against this madman. Others can deal with that one!~
+@38 = ~Shitting your pants, huh?! Haha! I'm telling you, this guy is not half as dangerous as everyone thinks.~
+@39 = ~What makes you so sure?~
+/* #384 */
+@40 = ~I'll call no man coward who commands the dead, but most of those that stayed and fought at Zhentil Keep perished when it fell to the siege.~
+@41 = ~I for one would be happy to let this guy have a little talk with my sword.~
+@42 = ~Old braggart! Better order the next round!~
+@43 = ~... said to have been thirty men. Big fellows!~
+@44 = ~They went into the mines and kicked out the goblins and demons and what do I know.~
+@45 = ~We could use those up here too.~
+@46 = ~Yes, with such fellows we would have quickly driven the bandits out of the wilderness and hanged them on the nearest tree!~
+@47 = ~They could also free us from the ghost at the old school. I get horrors only thinking about it!~
+@48 = ~Have another ale. That helps.~
+@49 = ~... so I made the bastard taste steel!~
+/* #367 */
+@50 = ~Never have I seen a highwayman that was more interested in iron than gold. Certainly there are strange plans afoot.~
+@51 = ~Times are bad.~
+@52 = ~Yes, everything was better before.~
+@53 = ~Care for another ale?~
+@54 = ~And my chain mail crumbles away between my fingers!~
+@55 = ~'right, I'll pay this one.~

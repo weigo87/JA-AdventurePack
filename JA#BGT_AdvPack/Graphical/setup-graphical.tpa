@@ -1,0 +1,389 @@
+//////////////////////////////////////////////////////
+//Add candels and torches
+//////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////
+//LAW-SYSTEM FRIENDLY ARM INN, ELFSONG TAVERN, BL. MERMAID
+/////////////////////////////////////////////////////////////
+
+COPY_EXISTING ~%FriendlyArmInn_L1%.ARE~ ~override~
+	//Add candles and torches
+	PATCH_DEFINE_ARRAY x_coord BEGIN 1233 1241 978 880 800 725 571 805 758 766 748 758 748 758 1178 1189 627 1189 END
+	PATCH_DEFINE_ARRAY y_coord BEGIN 636  640  808 974 806 704 678 463 300 305 157 157 163 163 538  537	 346 545  END
+	PATCH_PHP_EACH x_coord AS index => x BEGIN
+		LPF fj_are_structure
+		  INT_VAR
+			fj_loc_x = $x_coord("%index%")
+			fj_loc_y = $y_coord("%index%")
+			fj_schedule = 0b111111111111111111111111 //Hours 0.00 - 24.00
+			fj_flags = 0b00000000000000000001000001000011	// Visible, blend colours, not covered by wall, don't remove in combat
+			STR_VAR
+			fj_structure_type = animation
+			fj_name = FLAME2S
+			fj_bam_resref = FLAME2S
+		END
+	END
+BUT_ONLY
+
+COPY_EXISTING ~%FriendlyArmInn_L2%.ARE~ ~override~
+	//Add candles and torches
+	GET_OFFSET_ARRAY ambients_array ARE_V10_AMBIENTS 
+	PHP_EACH ambients_array AS ambients_num => ambients_offset BEGIN
+		READ_ASCII ambients_offset ambients_name (32) NULL
+		READ_SHORT ambients_offset+0x20 ambients_pos_x
+		PATCH_IF ((~%ambients_pos_x%~ = 1163) AND (~%ambients_name%~ STR_EQ  ~Fireplace~)) BEGIN
+			WRITE_SHORT ambients_offset+0x24 700 //Ambient Radius
+		END
+	END
+	PATCH_DEFINE_ARRAY x_coord BEGIN 379 388 249 572 749 757 750 760 750 760 904 970 1089 1082 1096 1088 1277 1287 1278 1287 1489 1300 1307 1115 1122 912 920 827 END
+	PATCH_DEFINE_ARRAY y_coord BEGIN 537 541 670 411 276 280 170 170 176 176 196 247 306  310  311  315	 438  438  444  444  626  665  670  795  801  914 919 664 END
+	PATCH_PHP_EACH x_coord AS index => x BEGIN
+		LPF fj_are_structure
+		  INT_VAR
+			fj_loc_x = $x_coord("%index%")
+			fj_loc_y = $y_coord("%index%")
+			fj_schedule = 0b111111111111111111111111 //Hours 0.00 - 24.00
+			fj_flags = 0b00000000000000000001000001000011	// Visible, blend colours, not covered by wall, don't remove in combat
+			STR_VAR
+			fj_structure_type = animation
+			fj_name = FLAME2S
+			fj_bam_resref = FLAME2S
+		END
+	END
+BUT_ONLY
+
+COPY_EXISTING ~%FriendlyArmInn_L3%.ARE~ ~override~
+	//Add candles and torches
+	GET_OFFSET_ARRAY ambients_array ARE_V10_AMBIENTS 
+	PHP_EACH ambients_array AS ambients_num => ambients_offset BEGIN
+		READ_ASCII ambients_offset ambients_name (32) NULL
+		READ_SHORT ambients_offset+0x20 ambients_pos_x
+		PATCH_IF ((~%ambients_pos_x%~ = 1167) AND (~%ambients_name%~ STR_EQ  ~Fireplace~)) BEGIN
+			WRITE_SHORT ambients_offset+0x24 700 //Ambient Radius
+		END
+	END
+	PATCH_DEFINE_ARRAY x_coord BEGIN 615 910 918 1105 1114 1290 1298 722 731 722 732 903 909 916 909 1489 1412 1079 1089 1080 1089 965 895 741 751 740 751 733 741 592 379 386 END
+	PATCH_DEFINE_ARRAY y_coord BEGIN 836 914 918 791  796  661  666  687 687 693 694 608 603 607 613 619  558  297  296  304  303  245 192 181 180 187 187 267 272 477 538 544 END
+	PATCH_PHP_EACH x_coord AS index => x BEGIN
+		LPF fj_are_structure
+		  INT_VAR
+			fj_loc_x = $x_coord("%index%")
+			fj_loc_y = $y_coord("%index%")
+			fj_schedule = 0b111111111111111111111111 //Hours 0.00 - 24.00
+			fj_flags = 0b00000000000000000001000001000011	// Visible, blend colours, not covered by wall, don't remove in combat
+			STR_VAR
+			fj_structure_type = animation
+			fj_name = FLAME2S
+			fj_bam_resref = FLAME2S
+		END
+	END
+BUT_ONLY
+
+/////////////////////////
+//Ramaziths Turm
+/////////////////////////
+
+//Add candles and torches
+COPY_EXISTING ~%WBaldursGate_RagefastsHouse%.ARE~ ~override~
+	PATCH_DEFINE_ARRAY x_coord BEGIN 297 344 END
+	PATCH_DEFINE_ARRAY y_coord BEGIN 135 141 END
+	PATCH_PHP_EACH x_coord AS index => x BEGIN
+		LPF fj_are_structure
+		  INT_VAR
+			fj_loc_x = $x_coord("%index%")
+			fj_loc_y = $y_coord("%index%")
+			fj_schedule = 0b111111111111111111111111 //Hours 0.00 - 24.00
+			fj_flags = 0b00000000000000000001000001000011	// Visible, blend colours, not covered by wall, don't remove in combat
+			STR_VAR
+			fj_structure_type = animation
+			fj_name = FLAME2S
+			fj_bam_resref = FLAME2S
+		END
+	END
+BUT_ONLY
+COPY_EXISTING ~%NBaldursGate_RamazithsTower_L6%.ARE~ ~override~
+	PATCH_DEFINE_ARRAY x_coord BEGIN 76  289 228 END
+	PATCH_DEFINE_ARRAY y_coord BEGIN 181 270 71  END
+	PATCH_PHP_EACH x_coord AS index => x BEGIN
+		LPF fj_are_structure
+		  INT_VAR
+			fj_loc_x = $x_coord("%index%")
+			fj_loc_y = $y_coord("%index%")
+			fj_schedule = 0b111111111111111111111111 //Hours 0.00 - 24.00
+			fj_flags = 0b00000000000000000001000001000011	// Visible, blend colours, not covered by wall, don't remove in combat
+			STR_VAR
+			fj_structure_type = animation
+			fj_name = FLAME2S
+			fj_bam_resref = FLAME2S
+		END
+	END
+BUT_ONLY
+COPY_EXISTING ~%NBaldursGate_RamazithsTower_L2%.ARE~ ~override~
+	PATCH_DEFINE_ARRAY x_coord BEGIN 328 254 END
+	PATCH_DEFINE_ARRAY y_coord BEGIN 196 325 END
+	PATCH_PHP_EACH x_coord AS index => x BEGIN
+		LPF fj_are_structure
+		  INT_VAR
+			fj_loc_x = $x_coord("%index%")
+			fj_loc_y = $y_coord("%index%")
+			fj_schedule = 0b111111111111111111111111 //Hours 0.00 - 24.00
+			fj_flags = 0b00000000000000000001000001000011	// Visible, blend colours, not covered by wall, don't remove in combat
+			STR_VAR
+			fj_structure_type = animation
+			fj_name = BUTRFLY
+			fj_bam_resref = BUTRFLY
+		END
+	END
+BUT_ONLY
+COPY_EXISTING ~%NBaldursGate_RamazithsTower_L3%.ARE~ ~override~
+	PATCH_DEFINE_ARRAY x_coord BEGIN 176 265 329 END
+	PATCH_DEFINE_ARRAY y_coord BEGIN 193 309 264 END
+	PATCH_PHP_EACH x_coord AS index => x BEGIN
+		LPF fj_are_structure
+		  INT_VAR
+			fj_loc_x = $x_coord("%index%")
+			fj_loc_y = $y_coord("%index%")
+			fj_schedule = 0b111111111111111111111111 //Hours 0.00 - 24.00
+			fj_flags = 0b00000000000000000001000001000011	// Visible, blend colours, not covered by wall, don't remove in combat
+			STR_VAR
+			fj_structure_type = animation
+			fj_name = BUTRFLY
+			fj_bam_resref = BUTRFLY
+		END
+	END
+BUT_ONLY
+COPY_EXISTING ~%NBaldursGate_RamazithsTower_L4%.ARE~ ~override~
+	PATCH_DEFINE_ARRAY x_coord BEGIN 344 156 162 END
+	PATCH_DEFINE_ARRAY y_coord BEGIN 211 272 195 END
+	PATCH_PHP_EACH x_coord AS index => x BEGIN
+		LPF fj_are_structure
+		  INT_VAR
+			fj_loc_x = $x_coord("%index%")
+			fj_loc_y = $y_coord("%index%")
+			fj_schedule = 0b111111111111111111111111 //Hours 0.00 - 24.00
+			fj_flags = 0b00000000000000000001000001000011	// Visible, blend colours, not covered by wall, don't remove in combat
+			STR_VAR
+			fj_structure_type = animation
+			fj_name = BUTRFLY
+			fj_bam_resref = BUTRFLY
+		END
+	END
+BUT_ONLY
+COPY_EXISTING ~%NBaldursGate_RamazithsTower_L5%.ARE~ ~override~
+	PATCH_DEFINE_ARRAY x_coord BEGIN 333 END
+	PATCH_DEFINE_ARRAY y_coord BEGIN 213 END
+	PATCH_PHP_EACH x_coord AS index => x BEGIN
+		LPF fj_are_structure
+		  INT_VAR
+			fj_loc_x = $x_coord("%index%")
+			fj_loc_y = $y_coord("%index%")
+			fj_schedule = 0b111111111111111111111111 //Hours 0.00 - 24.00
+			fj_flags = 0b00000000000000000001000001000011	// Visible, blend colours, not covered by wall, don't remove in combat
+			STR_VAR
+			fj_structure_type = animation
+			fj_name = BUTRFLY
+			fj_bam_resref = BUTRFLY
+		END
+	END
+BUT_ONLY
+
+///////////////////////////////////////////////////////////////////////
+//Komplett überarbeitete Herzogspalast-Szene mit restaurierten Inhalten
+//Restauriert: Abschluss der Husam-Storyline
+///////////////////////////////////////////////////////////////////////
+
+COPY_EXISTING ~%NBaldursGate_DucalPalace_L1%.ARE~ ~override~
+	//Add candles and torches
+	PATCH_DEFINE_ARRAY x_coord BEGIN 1123 1115 858 863 546 365 375 365 375 323 330 END
+	PATCH_DEFINE_ARRAY y_coord BEGIN 782  787  912 924 674 597 597 604 603 204 200 END
+	PATCH_PHP_EACH x_coord AS index => x BEGIN
+		LPF fj_are_structure
+		  INT_VAR
+			fj_loc_x = $x_coord("%index%")
+			fj_loc_y = $y_coord("%index%")
+			fj_schedule = 0b111111111111111111111111 //Hours 0.00 - 24.00
+			fj_flags = 0b00000000000000000001000001000011	// Visible, blend colours, not covered by wall, don't remove in combat
+			STR_VAR
+			fj_structure_type = animation
+			fj_name = FLAME2S
+			fj_bam_resref = FLAME2S
+		END
+	END
+
+COPY_EXISTING ~%NBaldursGate_DucalPalace_L2%.ARE~ ~override~
+	//Add candles and torches
+	PATCH_DEFINE_ARRAY x_coord BEGIN 1143 1135 1037 327 334 725 728 732 803 806 809 884 888 892 END
+	PATCH_DEFINE_ARRAY y_coord BEGIN 746  751  612  179 175 361 362 365 414 416 419 473 474 476 END
+	PATCH_PHP_EACH x_coord AS index => x BEGIN
+		LPF fj_are_structure
+		  INT_VAR
+			fj_loc_x = $x_coord("%index%")
+			fj_loc_y = $y_coord("%index%")
+			fj_schedule = 0b111111111111111111111111 //Hours 0.00 - 24.00
+			fj_flags = 0b00000000000000000001000001000011	// Visible, blend colours, not covered by wall, don't remove in combat
+			STR_VAR
+			fj_structure_type = animation
+			fj_name = FLAME2S
+			fj_bam_resref = FLAME2S
+		END
+	END
+BUT_ONLY
+
+COPY_EXISTING ~%NBaldursGate_DucalPalace_L3%.ARE~ ~override~
+	//Add candles and torches
+	PATCH_DEFINE_ARRAY x_coord BEGIN 1143 1135 1037 327 334 725 728 732 803 806 809 884 888 892 END
+	PATCH_DEFINE_ARRAY y_coord BEGIN 746  751  612  179 175 361 362 365 414 416 419 473 474 476 END
+	PATCH_PHP_EACH x_coord AS index => x BEGIN
+		LPF fj_are_structure
+		  INT_VAR
+			fj_loc_x = $x_coord("%index%")
+			fj_loc_y = $y_coord("%index%")
+			fj_schedule = 0b111111111111111111111111 //Hours 0.00 - 24.00
+			fj_flags = 0b00000000000000000001000001000011	// Visible, blend colours, not covered by wall, don't remove in combat
+			STR_VAR
+			fj_structure_type = animation
+			fj_name = FLAME2S
+			fj_bam_resref = FLAME2S
+		END
+	END
+BUT_ONLY
+
+COPY_EXISTING ~%NBaldursGate_DucalPalace_Cellar%.ARE~ ~override~
+	//Add candles and torches
+	PATCH_DEFINE_ARRAY x_coord BEGIN 653 455 257 551 END
+	PATCH_DEFINE_ARRAY y_coord BEGIN 218 358 498 246 END
+	PATCH_PHP_EACH x_coord AS index => x BEGIN
+		LPF fj_are_structure
+		  INT_VAR
+			fj_loc_x = $x_coord("%index%")
+			fj_loc_y = $y_coord("%index%")
+			fj_schedule = 0b111111111111111111111111 //Hours 0.00 - 24.00
+			fj_flags = 0b00000000000000000001000001000011	// Visible, blend colours, not covered by wall, don't remove in combat
+			STR_VAR
+			fj_structure_type = animation
+			fj_name = FLAME2S
+			fj_bam_resref = FLAME2S
+		END
+	END
+BUT_ONLY
+
+//////////////////////////////
+//SIEBEN SONNEN / SEVEN SUNS
+//////////////////////////////
+
+COPY_EXISTING ~%SWBaldursGate_SevenSuns_L1%.ARE~ ~override~
+	//Add candles and torches
+	PATCH_DEFINE_ARRAY x_coord BEGIN 694 447 457 447 457 331 176 82  92  82  91  174 302 424 407 529 279 END
+	PATCH_DEFINE_ARRAY y_coord BEGIN 223 73  73  80  79  163 272 379 379 386 386 390 299 213 374 288 464 END
+	PATCH_PHP_EACH x_coord AS index => x BEGIN
+		LPF fj_are_structure
+		  INT_VAR
+			fj_loc_x = $x_coord("%index%")
+			fj_loc_y = $y_coord("%index%")
+			fj_schedule = 0b111111111111111111111111 //Hours 0.00 - 24.00
+			fj_flags = 0b00000000000000000001000001000011	// Visible, blend colours, not covered by wall, don't remove in combat
+			STR_VAR
+			fj_structure_type = animation
+			fj_name = FLAME2S
+			fj_bam_resref = FLAME2S
+		END
+	END
+BUT_ONLY
+
+COPY_EXISTING ~%SWBaldursGate_SevenSuns_L2%.ARE~ ~override~
+	//Add candles and torches
+	PATCH_DEFINE_ARRAY x_coord BEGIN 473 483 472 483 601 684 679 675 205 302 393 470 466 480 475 142 151 141 152 143 147 150 230 233 236 END
+	PATCH_DEFINE_ARRAY y_coord BEGIN 44  44  50  50  133 254 253 254 239 170 189 278 283 280 286 283 283 289 289 396 399 402 454 456 459 END
+	PATCH_PHP_EACH x_coord AS index => x BEGIN
+		LPF fj_are_structure
+		  INT_VAR
+			fj_loc_x = $x_coord("%index%")
+			fj_loc_y = $y_coord("%index%")
+			fj_schedule = 0b111111111111111111111111 //Hours 0.00 - 24.00
+			fj_flags = 0b00000000000000000001000001000011	// Visible, blend colours, not covered by wall, don't remove in combat
+			STR_VAR
+			fj_structure_type = animation
+			fj_name = FLAME2S
+			fj_bam_resref = FLAME2S
+		END
+	END
+BUT_ONLY
+
+COPY_EXISTING ~%SWBaldursGate_SevenSuns_Cellar%.ARE~ ~override~
+	//Add candles and torches
+	PATCH_DEFINE_ARRAY x_coord BEGIN 208 350 91  260 305 416 518 469 569 518 610 703 END
+	PATCH_DEFINE_ARRAY y_coord BEGIN 483 504 321 203 321 243 384 165 235 71  136 202 END
+	PATCH_PHP_EACH x_coord AS index => x BEGIN
+		LPF fj_are_structure
+		  INT_VAR
+			fj_loc_x = $x_coord("%index%")
+			fj_loc_y = $y_coord("%index%")
+			fj_schedule = 0b111111111111111111111111 //Hours 0.00 - 24.00
+			fj_flags = 0b00000000000000000001000001000011	// Visible, blend colours, not covered by wall, don't remove in combat
+			STR_VAR
+			fj_structure_type = animation
+			fj_name = FLAME2S
+			fj_bam_resref = FLAME2S
+		END
+	END
+BUT_ONLY
+
+///////////////////////////////////
+//ALDETH SASHENSTAR & HAENDLERLIGA
+///////////////////////////////////
+COPY_EXISTING ~%SWBaldursGate_MerchantLeague_L1%.ARE~ ~override~
+	//Add candles and torches
+	PATCH_DEFINE_ARRAY x_coord BEGIN 841 1001 1181 449 619 785 591 195 END
+	PATCH_DEFINE_ARRAY y_coord BEGIN 871 746  627  631 494 352 186 503 END
+	PATCH_PHP_EACH x_coord AS index => x BEGIN
+		LPF fj_are_structure
+		  INT_VAR
+			fj_loc_x = $x_coord("%index%")
+			fj_loc_y = $y_coord("%index%")
+			fj_schedule = 0b111111111111111111111111 //Hours 0.00 - 24.00
+			fj_flags = 0b00000000000000000001000001000011	// Visible, blend colours, not covered by wall, don't remove in combat
+			STR_VAR
+			fj_structure_type = animation
+			fj_name = FLAME2S
+			fj_bam_resref = FLAME2S
+		END
+	END
+BUT_ONLY
+	
+COPY_EXISTING ~%SWBaldursGate_MerchantLeague_L2%.ARE~ ~override~
+	//Add candles and torches
+	PATCH_DEFINE_ARRAY x_coord BEGIN 673 376 707 838 968 884 954 921 952 1262 1298 1311 1319 1409 1418 END
+	PATCH_DEFINE_ARRAY y_coord BEGIN 331 555 805 887 947 765 637 614 502 652  669  528  533	 593  598 END
+	PATCH_PHP_EACH x_coord AS index => x BEGIN
+		LPF fj_are_structure
+		  INT_VAR
+			fj_loc_x = $x_coord("%index%")
+			fj_loc_y = $y_coord("%index%")
+			fj_schedule = 0b111111111111111111111111 //Hours 0.00 - 24.00
+			fj_flags = 0b00000000000000000001000001000011	// Visible, blend colours, not covered by wall, don't remove in combat
+			STR_VAR
+			fj_structure_type = animation
+			fj_name = FLAME2S
+			fj_bam_resref = FLAME2S
+		END
+	END
+BUT_ONLY
+
+COPY_EXISTING ~%SWBaldursGate_MerchantLeague_L3%.ARE~ ~override~
+	//Add candles and torches
+	PATCH_DEFINE_ARRAY x_coord BEGIN 795 799 803 625 624 624 677 681 684 758 761 762 838 842 846 924 928 931 END
+	PATCH_DEFINE_ARRAY y_coord BEGIN 494 491 490 606 608 612 650 651 654 704 707 709 525 522 521 572 574 577 END
+	PATCH_PHP_EACH x_coord AS index => x BEGIN
+		LPF fj_are_structure
+		  INT_VAR
+			fj_loc_x = $x_coord("%index%")
+			fj_loc_y = $y_coord("%index%")
+			fj_schedule = 0b111111111111111111111111 //Hours 0.00 - 24.00
+			fj_flags = 0b00000000000000000001000001000011	// Visible, blend colours, not covered by wall, don't remove in combat
+			STR_VAR
+			fj_structure_type = animation
+			fj_name = FLAME2S
+			fj_bam_resref = FLAME2S
+		END
+	END
+BUT_ONLY

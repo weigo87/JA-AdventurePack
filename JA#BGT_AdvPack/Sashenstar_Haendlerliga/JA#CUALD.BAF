@@ -1,0 +1,76 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		FadeToColor([20.0],0)
+		Wait(2)
+		ActionOverride("Aldeth",MoveBetweenAreas("%SWBaldursGate%",[3473.2476],2))
+		ActionOverride("JA#DEAGA",MoveBetweenAreas("%SWBaldursGate%",[3525.2528],2))
+		LeaveAreaLUA("%SWBaldursGate%","",[3603.2557],2)
+		Wait(2)
+		ActionOverride("Aldeth",MoveToPoint([3244.2519]))
+		ActionOverride("Aldeth",OpenDoor("DOOR0127"))
+		ActionOverride("Aldeth",EscapeAreaMove("%SWBaldursGate_MerchantLeague_L2%",634,399,1))
+		ActionOverride("JA#DEAGA",MoveToPoint([3244.2519]))
+		ActionOverride("JA#DEAGA",DestroySelf())
+		FadeFromColor([20.0],0)
+		MoveToPoint([3446.2601])
+		Wait(2)
+		EndCutSceneMode()
+END
+
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player2)
+		Wait(2)
+		LeaveAreaLUA("%SWBaldursGate%","",[3582.2507],2)
+		Wait(2)
+		MoveToPoint([3435.2558])
+END
+
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player3)
+		Wait(2)
+		LeaveAreaLUA("%SWBaldursGate%","",[3656.2553],2)
+		Wait(2)
+		MoveToPoint([3495.2603])
+END
+
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player4)
+		Wait(2)
+		LeaveAreaLUA("%SWBaldursGate%","",[3650.2513],2)
+		Wait(2)
+		MoveToPoint([3486.2562])
+END
+
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player5)
+		Wait(2)
+		LeaveAreaLUA("%SWBaldursGate%","",[3720.2566],2)
+		Wait(2)
+		MoveToPoint([3532.2603])
+END
+
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player6)
+		Wait(2)
+		LeaveAreaLUA("%SWBaldursGate%","",[3713.2515],2)
+		Wait(2)
+		MoveToPoint([3531.2564])
+END 

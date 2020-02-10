@@ -1,0 +1,55 @@
+/* #4730 */
+@0  = ~Help me! You have to help me, please. I've lost... a lot of blood.~
+/* #4731 */
+@1  = ~What happened to you? Who did this?~
+/* #4732 */
+@2  = ~Bugger off, dead man.~
+/* #4733 */
+@3  = ~You can't leave me to die. *sob*~
+/* #4734 */
+@4  = ~Bandit! Bandits along the Coast Way road. They attacked my caravan. Everyone dead... My poor Shelley. *sob* I feel so weak... so cold.~
+@5  = ~Here, take this potion.~
+@6  = ~I've got this healing elixir for you. This will help you.~
+@7  = ~Here, take these Good Berries.~
+@8  = ~We'll see what we can do for you. Hold still for a moment.~
+@9  = ~You're as good as dead, we can't help you.~
+@10 = ~Attack on the caravan
+
+A caravan was attacked and plundered by bandits on the coastal path. The passengers are all dead or kidnapped. One of the merchants was still alive when we found him, but there's probably no hope for him. Maybe I should release him of his agony before the wild animals take care of him.~
+/* #4735 */
+@11 = ~I'm saved! You saved me, oh may all the gods bless your soul. What is there that I can do to repay you?~
+/* #4737 */
+@12 = ~You could give us money, and lots of it.~
+@13 = ~Attack on the caravan
+
+We were able to rescue one of the victims of the attack on the caravan on the coastal road. The merchant was close to death when we found him. Unfortunately the bandits have taken all his money, so there was no reward for our good deed.~
+/* #4738 */
+@14 = ~You could tell us more about these bandits you've been talking about.~
+@15 = ~Attack on the caravan
+
+We were able to rescue one of the victims of the attack on the caravan on the coastal road. The merchant was close to death when we found him. I would say that we came at the right moment.~
+/* #4739 */
+@16 = ~No, but thank you for the offer.~
+/* #4740 */
+@17 = ~Actually, I doubt there is anything that you could do for us. We're mighty adventurers, and you're just one measly peasant.~
+@18 = ~Attack on the caravan
+
+We were able to rescue one of the victims of the attack on the caravan on the coastal road. The merchant was close to death when we found him. His gratitude was, however, brazenly limited.~
+/* #4741 */
+@19 = ~I don't have any money to give. I— I'm sorry, but I have to go.~
+/* #4742 */
+@20 = ~Well, I never! There was no reason to get so snotty. I apologize for taking so much time out of your important lives!~
+/* #4743 */
+@21 = ~I don't know much about the bandits. They just came out of nowhere. There were hobgoblin and human mercenaries. They told us to surrender and give up our iron stores, but our captain refused them! The foolish, altruistic idiot. They fell upon us like a pack of ravenous wolves. I only barely escaped with my life. That's all I really have to tell. I had better get a move on, I have to tell the families of those who died.~
+@22 = ~Bandits!
+
+After I healed a severely injured merchant, he told me that the bandits who had attacked his caravan were both human and half-human and that they were specifically after the iron stock.~
+/* #6299 */
+@23 = ~I've heard a lot of stuff lately. Iron seems to be hard to come by, what with the bandits and the faulty Nashkel ore. Trouble seems to be brewing between Baldur's Gate and Amn. I wouldn't be too surprised if a war broke out between the two.~
+@24 = ~Bandits!
+
+After I healed a severely injured trader, he told a few vague things about the iron scarcity, bandits, and war.~
+/* # 9164 */
+@25 = ~I wouldn't trust you as far as I can spit!~
+@26 = ~Yea'? Help me, I... aarh, I'm getting weaker...~
+@27 = ~We'll be back with help soon.~

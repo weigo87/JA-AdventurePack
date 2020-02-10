@@ -1,0 +1,27 @@
+IF
+	Global("JA#MGUAR","GLOBAL",1)
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		Enemy()
+END
+
+IF
+	!See([PC])
+	Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		MoveToObject(NearestEnemyOf(Myself))
+END
+
+
+IF
+	!Allegiance(Myself,ENEMY)
+	See([ENEMY])
+	!Class(LastSeenBy(Myself),INNOCENT)
+	!Class(LastSeenBy(Myself),FLAMING_FIST)
+THEN
+	RESPONSE #100
+		EquipRanged()
+		AttackReevaluate([ENEMY],30)
+END

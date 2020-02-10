@@ -1,0 +1,28 @@
+/* #14999 */
+@0    = ~Hello.~
+@1    = ~Hello, friend.~
+@2    = ~Uh, is there anything in particular?~
+/* #15002*/
+@3    = ~Perhaps your archer could help me.~
+@4    = ~What is it?~
+/* #15003 */
+@5    = ~I've lost my lucky arrow around here somewhere and can't seem to find it.~
+/* #15731 + title */
+@6    = ~Llindellyn's Lucky Arrow
+
+Here I am, yet another lowly adventurer beating about the bushes, looking for some stranger's lucky arrow. I mean, Llindellyn is a nice enough guy but... shouldn't I be out slaying tarrasques or something?~
+/* #15004 */
+@7    = ~Any luck finding that arrow of mine?~
+/* #15005 */
+@8    = ~Great, thanks. Here, let me give you a little something in exchange... Happy hunting.~
+@9    = ~Llindellyn's Lucky Arrow
+
+To look for Llindellyn's arrow was a welcome change in my humdrum life as an adventurer. The elf belongs, in any case, to the more sympatic encounters in this wilderness, but I fear that my real life will soon catch up again.~
+/* #15006 */
+@10   = ~It's silly, I know, but it just doesn't feel right without my lucky arrow. Here, let me give you a little something in exchange. They're great for anything with tough skin.~
+/* #15007 */
+@11   = ~My lucky arrow! Others may fly straighter or do more damage but without my lucky arrow on me, I might as well wield a club. Here, let me give you some arrows of detonation. No pun intended but they really are a blast!~
+/* #15008 */
+@12   = ~Oh, now this is going to be fun.~
+/* #15009 */
+@13   = ~How were those arrows I gave you?~

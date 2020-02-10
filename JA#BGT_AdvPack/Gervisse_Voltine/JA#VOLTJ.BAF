@@ -1,0 +1,155 @@
+IF
+	See([PC])
+	Range([PC],5)
+	!Global("JA#VOLT_SPWN","%NWBaldursGate_LaertasHouse_L1%",50)
+THEN
+	RESPONSE #100
+		MoveViewObject("JA#VOLTJ",INSTANT)
+		SetGlobal("JA#VOLT_SPWN","%NWBaldursGate_LaertasHouse_L1%",50)
+END
+
+IF
+	Global("JA#VOLT_SPWN","%NWBaldursGate_LaertasHouse_L1%",50)
+THEN
+	RESPONSE #100
+		SaveObjectLocation("%NWBaldursGate_LaertasHouse_L1%","JA#VOLT_LOCA",Myself)
+		SetGlobal("JA#VOLT_SPWN","%NWBaldursGate_LaertasHouse_L1%",51)
+END
+
+IF
+	Global("JA#VOLT_SPWN","%NWBaldursGate_LaertasHouse_L1%",1)
+THEN
+	RESPONSE #100
+		SetGlobal("JA#VOLT_SPWN","%NWBaldursGate_LaertasHouse_L1%",2)
+		MoveToPoint([838.401])
+		Wait(4)
+END
+
+IF
+	Delay(4)
+	Global("JA#VOLT_SPWN","%NWBaldursGate_LaertasHouse_L1%",2)
+THEN
+	RESPONSE #100
+		SetGlobal("JA#VOLT_SPWN","%NWBaldursGate_LaertasHouse_L1%",3)
+		MoveToPoint([905.311])
+		Wait(4)
+END
+
+IF
+	Delay(4)
+	Global("JA#VOLT_SPWN","%NWBaldursGate_LaertasHouse_L1%",3)
+THEN
+	RESPONSE #100
+		SetGlobal("JA#VOLT_SPWN","%NWBaldursGate_LaertasHouse_L1%",4)
+		MoveToPoint([847.233])
+		Wait(4)
+END
+
+IF
+	Delay(4)
+	Global("JA#VOLT_SPWN","%NWBaldursGate_LaertasHouse_L1%",4)
+THEN
+	RESPONSE #100
+		SetGlobal("JA#VOLT_SPWN","%NWBaldursGate_LaertasHouse_L1%",5)
+		MoveToPoint([759.188])
+		Wait(4)
+END
+
+IF
+	Delay(4)
+	Global("JA#VOLT_SPWN","%NWBaldursGate_LaertasHouse_L1%",5)
+THEN
+	RESPONSE #100
+		SetGlobal("JA#VOLT_SPWN","%NWBaldursGate_LaertasHouse_L1%",6)
+		MoveToPoint([677.203])
+		Wait(4)
+END
+
+IF
+	Delay(4)
+	Global("JA#VOLT_SPWN","%NWBaldursGate_LaertasHouse_L1%",6)
+THEN
+	RESPONSE #100
+		SetGlobal("JA#VOLT_SPWN","%NWBaldursGate_LaertasHouse_L1%",7)
+		MoveToPoint([584.257])
+		Wait(4)
+END
+
+IF
+	Delay(4)
+	Global("JA#VOLT_SPWN","%NWBaldursGate_LaertasHouse_L1%",7)
+THEN
+	RESPONSE #100
+		SetGlobal("JA#VOLT_SPWN","%NWBaldursGate_LaertasHouse_L1%",8)
+		MoveToPoint([495.336])
+		Wait(4)
+END
+
+IF
+	Delay(4)
+	Global("JA#VOLT_SPWN","%NWBaldursGate_LaertasHouse_L1%",8)
+THEN
+	RESPONSE #100
+		SetGlobal("JA#VOLT_SPWN","%NWBaldursGate_LaertasHouse_L1%",9)
+		MoveToPoint([558.430])
+		Wait(4)
+END
+
+IF
+	Delay(4)
+	Global("JA#VOLT_SPWN","%NWBaldursGate_LaertasHouse_L1%",9)
+THEN
+	RESPONSE #100
+		SetGlobal("JA#VOLT_SPWN","%NWBaldursGate_LaertasHouse_L1%",10)
+		MoveToPoint([482.519])
+		Wait(4)
+END
+
+IF
+	Delay(4)
+	Global("JA#VOLT_SPWN","%NWBaldursGate_LaertasHouse_L1%",10)
+THEN
+	RESPONSE #100
+		SetGlobal("JA#VOLT_SPWN","%NWBaldursGate_LaertasHouse_L1%",11)
+		MoveToPoint([482.519])
+		Wait(4)
+END
+
+IF
+	Delay(4)
+	Global("JA#VOLT_SPWN","%NWBaldursGate_LaertasHouse_L1%",11)
+THEN
+	RESPONSE #100
+		SetGlobal("JA#VOLT_SPWN","%NWBaldursGate_LaertasHouse_L1%",12)
+		MoveToPoint([363.596])
+		Wait(4)
+END
+
+IF
+	Delay(4)
+	Global("JA#VOLT_SPWN","%NWBaldursGate_LaertasHouse_L1%",12)
+THEN
+	RESPONSE #100
+		SetGlobal("JA#VOLT_SPWN","%NWBaldursGate_LaertasHouse_L1%",13)
+		MoveToPoint([336.547])
+		Wait(4)
+END
+
+IF
+	Delay(4)
+	Global("JA#VOLT_SPWN","%NWBaldursGate_LaertasHouse_L1%",13)
+THEN
+	RESPONSE #100
+		SetGlobal("JA#VOLT_SPWN","%NWBaldursGate_LaertasHouse_L1%",14)
+		MoveToPoint([316.474])
+		Wait(4)
+END
+
+IF
+	Global("JA#VOLT_SPWN","%NWBaldursGate_LaertasHouse_L1%",14)
+THEN
+	RESPONSE #100
+		SetGlobal("JA#VOLT_SPWN","%NWBaldursGate_LaertasHouse_L1%",50)
+END
+
+

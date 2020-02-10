@@ -1,0 +1,77 @@
+IF
+	AreaCheck("%Ulcaster%")
+	NumTimesTalkedTo(0)
+	See([PC])
+THEN
+	RESPONSE #100
+		Dialogue([PC])
+END
+
+IF
+	AreaCheck("%UlcasterRuins%")
+	Global("JA#MALKA_DEACT1","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("JA#MALKA_DEACT1","LOCALS",1)
+		Deactivate(Myself)
+		Continue()
+END
+
+IF
+	Global("JA#MALKA","LOCALS",1)
+	See([PC])
+THEN
+	RESPONSE #100
+		SetGlobal("JA#MALKA","LOCALS",2)
+		CreateVisualEffectObject("JA#SPWN1",Myself)
+		Wait(1)
+		Activate(Myself)
+		Wait(1)
+		Continue()
+END
+
+
+IF
+	Global("JA#MALKA","LOCALS",2)
+	See([PC])
+THEN
+	RESPONSE #100
+		Dialogue([PC])
+END
+
+
+IF
+	Global("JA#MALKA","LOCALS",3)
+	See([PC])
+THEN
+	RESPONSE #100
+		SetGlobal("JA#MALKA","LOCALS",4)
+		CreateVisualEffectObject("JA#SPWN1",Myself)
+		Wait(1)
+		JumpToPoint([1083.1083])
+		Wait(1)
+		Face(14)
+		Deactivate(Myself)
+END
+
+IF
+	Global("JA#MALKA","LOCALS",4)
+	See([PC])
+THEN
+	RESPONSE #100
+		SetGlobal("JA#MALKA","LOCALS",5)
+		CreateVisualEffectObject("JA#SPWN1",Myself)
+		Wait(1)
+		Activate(Myself)
+		Wait(1)
+		Continue()
+END
+
+IF
+	Global("JA#MALKA","LOCALS",5)
+	See([PC])
+THEN
+	RESPONSE #100
+		Dialogue([PC])
+END
+

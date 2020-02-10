@@ -1,0 +1,78 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId("JA#DEAGA")
+		MoveViewPoint([4279.1902],INSTANT)
+		Wait(2)
+		Explore()
+		JumpToPoint([4276.2053])
+		FadeFromColor([30.0],0)
+		MoveViewPoint([3941.2475],VERY_FAST)
+		MoveToPoint([3830.2437])
+		Face(12)
+		Wait(3)
+		StartDialogueNoSet([PC])
+END
+
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		Wait(2)
+		JumpToPoint([4279.1902])
+		MoveToPoint([3941.2475])
+END
+
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player2)
+		Wait(2)
+		JumpToPoint([4345.1895])
+		MoveToPoint([3990.2429])
+END
+
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player3)
+		Wait(2)
+		JumpToPoint([4277.1868])
+		MoveToPoint([4023.2490])
+END
+
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player4)
+		Wait(2)
+		JumpToPoint([4360.1867])
+		MoveToPoint([4053.2428])
+END
+
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player5)
+		Wait(2)
+		JumpToPoint([4284.1832])
+		MoveToPoint([4113.2461])
+END
+
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player6)
+		Wait(2)
+		JumpToPoint([4360.1840])
+		MoveToPoint([4076.2409])
+END
+
+

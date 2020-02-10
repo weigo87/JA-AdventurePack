@@ -1,0 +1,53 @@
+IF
+	See([PC])
+	Global("JA#CUNIM","%Peldvale%",0)
+THEN
+	RESPONSE #100
+		SetGlobal("JA#CUNIM","%Peldvale%",1)
+		ClearAllActions()
+		StartCutScene("JA#CUNIM")
+END
+
+IF
+	!Allegiance(Myself,ENEMY)
+	OR(2)
+		AttackedBy([GOODCUTOFF],DEFAULT)
+		PickPocketFailed([PC])
+THEN
+	RESPONSE #100
+		Enemy()
+END
+
+IF
+	!Allegiance(Myself,ENEMY)
+	See([ENEMY])
+	Class(LastSeenBy(Myself),WOLF_DIRE)
+THEN
+	RESPONSE #100
+		AttackReevaluate(LastSeenBy(Myself),30)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		AttackReevaluate(NearestEnemyOf(Myself),5)
+END
+
+IF
+	Range(NearestEnemyOf(Myself),2)
+THEN
+	RESPONSE #100
+		EquipMostDamagingMelee()
+		Continue()
+END
+
+IF
+	!Range(NearestEnemyOf(Myself),2)
+THEN
+	RESPONSE #100
+		EquipRanged()
+		Continue()
+END
+
+

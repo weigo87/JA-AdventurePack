@@ -1,0 +1,13 @@
+IF
+	Global("Chapter","GLOBAL",%tutu_chapter_7%)
+	Global("ENDOFBG1","GLOBAL",0)
+	Global("JA#OGREM_SPAWN","%BaldursGateDocks_OgreMagiHouse_L1%",0)
+THEN
+	RESPONSE #100
+		SetGlobal("JA#OGREM_SPAWN","%BaldursGateDocks_OgreMagiHouse_L1%",1)
+		CreateCreature("OGREMA",[487.476],0)
+		CreateCreature("OGREMA_A",[567.412],0)
+		CreateCreature("OGREMA_B",[555.534],0)
+		CreateCreature("OGREMA_C",[629.485],0)
+		CreateCreature("OGREMA_D",[494.597],0)
+END

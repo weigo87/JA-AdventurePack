@@ -1,0 +1,10 @@
+IF
+	OnCreation()
+	Global("JA#DEAGAN_SEQ","GLOBAL",2)
+	!Exists("Aldeth")
+THEN
+	RESPONSE #100
+		CreateCreature("ALDETH",[268.534],10)
+		SetGlobal("JA#DEAGAN_SEQ","GLOBAL",3)
+		Continue()
+END

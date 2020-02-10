@@ -1,0 +1,27 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		Wait(1)
+		FadeToColor([30.0],0)
+		MultiPlayerSync()
+		Wait(1)
+		ActionOverride("JA#GUAB1",MoveBetweenAreas("%Temple_SongoftheMorning%",[459.583],14))
+		ActionOverride("JA#GUAB2",MoveBetweenAreas("%Temple_SongoftheMorning%",[522.691],12))
+		ActionOverride("JA#GUAB3",MoveBetweenAreas("%Temple_SongoftheMorning%",[661.653],3))
+		Wait(1)
+		LeaveAreaLUA("%Temple_SongoftheMorning%","",[568.690],7)
+		ActionOverride(Player2,LeaveAreaLUA("%Temple_SongoftheMorning%","",[616.666],7))
+		ActionOverride(Player3,LeaveAreaLUA("%Temple_SongoftheMorning%","",[600.726],7))
+		ActionOverride(Player4,LeaveAreaLUA("%Temple_SongoftheMorning%","",[648.702],7))
+		ActionOverride(Player5,LeaveAreaLUA("%Temple_SongoftheMorning%","",[616.762],7))
+		ActionOverride(Player6,LeaveAreaLUA("%Temple_SongoftheMorning%","",[680.738],7))
+		MoveViewPoint([459.583],INSTANT)
+		Wait(1)
+		FadeFromColor([30.0],0)
+		Wait(2)
+		ActionOverride("JA#GUAB1",StartDialogueNoSet([PC]))
+END
+
+

@@ -1,0 +1,10 @@
+IF
+	See([PC])
+	NumTimesTalkedTo(0)
+THEN
+	RESPONSE #100
+		Wait(1)
+		Dialogue([PC])
+END
+
+

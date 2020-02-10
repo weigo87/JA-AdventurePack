@@ -1,0 +1,27 @@
+IF
+	AttackedBy([ANYONE],DEFAULT)
+THEN
+	RESPONSE #100
+		SetGlobal("Doppleganger","GLOBAL",1)
+END
+
+IF
+	Global("Doppleganger","GLOBAL",1)
+	OR(2)
+		AreaCheck("%SWBaldursGate_SevenSuns_L1%")
+		AreaCheck("%SWBaldursGate_SevenSuns_Cellar%")
+THEN
+	RESPONSE #100
+		ForceSpell(Myself,DOPPLEGANGER_CHANGE)
+END
+
+IF
+	Global("Doppleganger","GLOBAL",1)
+	AreaCheck("%SWBaldursGate_SevenSuns_L2%")
+	Global("JA#DOPPSE_TALK","GLOBAL",1)
+THEN
+	RESPONSE #100
+		ForceSpell(Myself,DOPPLEGANGER_CHANGE)
+END
+
+

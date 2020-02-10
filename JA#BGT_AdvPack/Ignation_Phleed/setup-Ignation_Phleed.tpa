@@ -1,0 +1,8 @@
+/////////////////////////////
+//RESTORED: Ignatio Phleed
+/////////////////////////////
+
+COPY ~JA#BGT_AdvPack/Ignation_Phleed/JA#IGNAT.CRE~ ~override~
+	SAY NAME1 #11740 // ~Ignatio Phleed~ (string ref is true for BGT and BG:EE)
+	SAY NAME2 #11740 //~Ignatio Phleed~ (string ref is true for BGT and BG:EE)
+COMPILE ~JA#BGT_AdvPack/Ignation_Phleed/JA#IGNAT.D~

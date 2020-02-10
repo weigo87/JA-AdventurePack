@@ -1,0 +1,54 @@
+IF
+	See([PC])
+	NumTimesTalkedTo(0)
+	AreaCheck("%BearRiver%")
+THEN
+	RESPONSE #100
+		Dialogue([PC])
+END
+
+IF
+	See([PC])
+	Global("JA#KEELOR","LOCALS",1)
+THEN
+	RESPONSE #100
+		Dialogue([PC])
+END
+
+IF
+	HPPercent(Myself,100)
+	Global("JA#KEELOR","LOCALS",1)
+THEN
+	RESPONSE #100
+		SetGlobal("JA#KEELOR","LOCALS",1)
+END
+
+IF
+	HasItem("POTN08",Myself) // Heiltrank
+THEN
+	RESPONSE #100
+		UseItem("POTN08",Myself) // Heiltrank
+END
+
+IF
+	HasItem("POTN17",Myself) // Heilungselixier
+THEN
+	RESPONSE #100
+		UseItem("POTN17",Myself) // Heilungselixier
+END
+
+IF
+	HasItem("GBERRY",Myself) // Gute Beeren
+THEN
+	RESPONSE #100
+		UseItem("GBERRY",Myself) // Gute Beeren
+END
+
+IF
+	HasItem("POTN52",Myself) // Konzentrierter Heiltrank
+THEN
+	RESPONSE #100
+		UseItem("POTN52",Myself) // Konzentrierter Heiltrank
+END
+
+

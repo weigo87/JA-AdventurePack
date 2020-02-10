@@ -1,0 +1,8 @@
+IF
+	AttackedBy([ANYONE],DEFAULT)
+THEN
+	RESPONSE #100
+		UseItem("JA#DPKIZ",Myself)
+END
+
+

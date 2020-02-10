@@ -1,0 +1,12 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		SetGlobal("JA#DEAGAN_SEQ","GLOBAL",1)
+		FadeToColor([30.0],0)
+		Wait(2)
+		StartCutScene("JA#CUDEB")
+END
+
+

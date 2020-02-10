@@ -1,0 +1,8 @@
+IF
+	Global("JA#7SUNS_GUARDDEAD","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("JA#7SUNS_GUARDDEAD","GLOBAL",2)
+		CreateCreature("JA#SSGU5",[448.409],6)
+		Continue()
+END

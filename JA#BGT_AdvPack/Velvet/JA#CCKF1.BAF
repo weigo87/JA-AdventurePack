@@ -1,0 +1,33 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		FadeToColor([30.0],0)
+		Wait(2)
+		MoveViewPoint([2586.3399],INSTANT)
+		SmallWait(2)
+		JumpToPoint([2542.3446])
+		ActionOverride(Player2,JumpToPoint([2556.3356]))
+		ActionOverride(Player3,JumpToPoint([2603.3463]))
+		ActionOverride(Player4,JumpToPoint([2605.3355]))
+		ActionOverride(Player5,JumpToPoint([2665.3451]))
+		ActionOverride(Player6,JumpToPoint([2642.3371]))
+		SmallWait(3)
+		Face(9)
+		ActionOverride(Player2,Face(14))
+		ActionOverride(Player3,Face(8))
+		ActionOverride(Player4,Face(0))
+		ActionOverride(Player5,Face(6))
+		ActionOverride(Player6,Face(2))
+		FadeFromColor([30.0],0)
+		ActionOverride("JA#COCK1",Attack("JA#COCK2"))
+		ActionOverride("JA#COCK2",Attack("JA#COCK1"))
+		ActionOverride("JA#COCK1",Wait(2))
+		ActionOverride("JA#COCK2",Wait(2))
+		SetGlobal("JA#COCKFIGHT","%NashkelCarnival%",1)
+		ActionOverride("JA#COCK1",EndCutSceneMode())
+		ActionOverride("JA#COCK2",EndCutSceneMode())
+END
+
+
