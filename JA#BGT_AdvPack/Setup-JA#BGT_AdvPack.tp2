@@ -358,3 +358,12 @@ INCLUDE ~JA#BGT_AdvPack/Sashenstar_Haendlerliga/setup-Sashenstar_Haendlerliga.tp
 BEGIN ~ERWEITERTE TENYA-HANDLUNG & TEMPEL DER UMBERLEE~ DESIGNATED 28
 
 INCLUDE ~JA#BGT_AdvPack/Tenya/setup-Tenya.tpa~
+
+
+///////////////////////////////////////////////////
+//Animierte Fackeln und Kerzen
+///////////////////////////////////////////////////
+
+BEGIN ~Animierte Fackeln und Kerzen~ DESIGNATED 100
+
+INCLUDE ~JA#BGT_AdvPack/Graphical/setup-Graphical.tpa~
