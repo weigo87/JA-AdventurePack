@@ -1,0 +1,8 @@
+IF
+	GlobalGT("JA#ELFSONG_QUEST","GLOBAL",8)
+	Global("JA#WILYN1_DEACT","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("JA#WILYN1_DEACT","LOCALS",1)
+		Deactivate(Myself)
+END

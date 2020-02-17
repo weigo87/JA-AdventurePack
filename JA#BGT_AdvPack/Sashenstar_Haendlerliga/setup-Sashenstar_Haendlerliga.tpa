@@ -208,7 +208,7 @@ COPY_EXISTING ~ZORL.BCS~ ~override~
 	END
 BUT_ONLY
 
-EXTEND_TOP ~%EBaldursGate%.BCS~ ~JA#BGT_AdvPack/BAF/AR7800.BAF~
+EXTEND_TOP ~%EBaldursGate%.BCS~ ~JA#BGT_AdvPack/Sashenstar_Haendlerliga/AR7800.BAF~
 
 COPY ~JA#BGT_AdvPack/Sashenstar_Haendlerliga/JA#MLBAR.STO~ ~override~
 

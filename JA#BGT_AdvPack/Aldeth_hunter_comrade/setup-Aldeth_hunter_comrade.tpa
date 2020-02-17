@@ -2,7 +2,7 @@
 //RESTORED: Aldeth's hunter comrade
 /////////////////////////////////////
 
-COPY ~JA#BGT_AdvPack/CRE/JA#PALIN.CRE~ ~override~
+COPY ~JA#BGT_AdvPack/Aldeth_hunter_comrade/JA#PALIN.CRE~ ~override~
 	SAY NAME1 @2054
 	SAY NAME2 @2054
 

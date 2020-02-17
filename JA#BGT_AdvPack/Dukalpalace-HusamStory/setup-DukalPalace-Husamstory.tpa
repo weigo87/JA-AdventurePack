@@ -732,3 +732,6 @@ EXTEND_TOP ~%NBaldursGate%.BCS~ ~JA#BGT_AdvPack/Dukalpalace-HusamStory/AR7300.BA
 EXTEND_TOP ~%CentralSewers%.BCS~ ~JA#BGT_AdvPack/Dukalpalace-HusamStory/AR7325.BAF~ EVALUATE_BUFFER
 
 COPY ~JA#BGT_AdvPack/Dukalpalace-HusamStory/JA#7211A.BAM~ ~override~
+
+//misc.d
+COMPILE ~JA#BGT_AdvPack/Dukalpalace-HusamStory/JA#Denkod.d~

@@ -1,0 +1,8 @@
+IF
+	!Dead("ENDER")
+	Global("JA#ENDER","%EBaldursGate_Inn_L1%",0)
+THEN
+	RESPONSE #100
+		SetGlobal("JA#ENDER","%EBaldursGate_Inn_L1%",1)
+		CreateCreature("JA#ENSAI",[676.303],15)
+END

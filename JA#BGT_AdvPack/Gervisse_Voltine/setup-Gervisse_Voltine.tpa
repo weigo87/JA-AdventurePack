@@ -63,7 +63,7 @@ COPY_EXISTING ~%NWBaldursGate%.ARE~ ~override~
 		fj_loc_y          = 2769
 		fj_dest_x         = 2756
 		fj_dest_y         = 2769
-		fj_schedule		  = 0b0000000000000001111100111111110011110000
+		fj_schedule		  = 0b000111111111111111110000
 		fj_orientation    = 4     
 		STR_VAR
 		fj_structure_type = actor

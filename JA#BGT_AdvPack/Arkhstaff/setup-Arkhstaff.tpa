@@ -145,7 +145,7 @@ COPY_EXISTING ~%BaldursGateDocks_OgreMagiHouse_L1%.are~ ~override~
 		fj_orientation = 0    
 		STR_VAR
 		fj_structure_type = entrance
-		fj_name           = JA#7325
+		fj_name           = FRJA#C04
 	END
 	//bam as optical entrance JA#7325
 	LPF fj_are_structure

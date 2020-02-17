@@ -97,8 +97,8 @@ COPY_EXISTING ~%NBaldursGate%.ARE~ ~override~
 		fj_cre_resref     = ~JA#BOYBA~
 		fj_dlg_resref	  = ~BOYBA3~  
 	END
-
-COPY_EXISTING ~%NBaldursGate%.ARE~ ~override~
+	
+COPY_EXISTING ~%WBaldursGate%.ARE~ ~override~
 	//add new actors
 	LPF fj_are_structure
 		INT_VAR
@@ -114,3 +114,9 @@ COPY_EXISTING ~%NBaldursGate%.ARE~ ~override~
 		fj_cre_resref     = ~JA#BOYBA~
 		fj_dlg_resref	  = ~BOYBA3~  
 	END
+
+	
+//misc.d
+COMPILE ~JA#BGT_AdvPack/Nobles/JA#Nobl14.D~
+		~JA#BGT_AdvPack/Nobles/JA#Yago.D~
+		~JA#BGT_AdvPack/Nobles/JA#Dillar.d~

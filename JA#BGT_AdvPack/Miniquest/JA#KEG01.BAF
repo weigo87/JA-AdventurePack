@@ -1,0 +1,10 @@
+IF
+	Die()
+	Global("JA#CUKEG","%EBaldursGate_ElfsongTavern_L1%",2)
+THEN
+	RESPONSE #100
+		SetGlobal("JA#CUKEG","%EBaldursGate_ElfsongTavern_L1%",3)
+		CreateCreature("JA#KEG02",[648.257],0)
+END
+
+

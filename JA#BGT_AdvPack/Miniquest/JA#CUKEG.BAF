@@ -1,0 +1,30 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Myself)
+		FadeToColor([20.0],0)
+		JumpToPoint([509.316])
+		ActionOverride(Player1,JumpToPoint([468.366]))
+		ActionOverride(Player2,JumpToPoint([507.397]))
+		ActionOverride(Player3,JumpToPoint([475.420]))
+		ActionOverride(Player4,JumpToPoint([439.394]))
+		ActionOverride(Player5,JumpToPoint([406.414]))
+		ActionOverride(Player6,JumpToPoint([447.447]))
+		MoveViewPoint([509.316],INSTANT)
+		Face(11)
+		ActionOverride(Player1,FaceObject("JA#KEG01"))
+		ActionOverride(Player2,FaceObject("JA#KEG01"))
+		ActionOverride(Player3,FaceObject("JA#KEG01"))
+		ActionOverride(Player4,FaceObject("JA#KEG01"))
+		ActionOverride(Player5,FaceObject("JA#KEG01"))
+		ActionOverride(Player6,FaceObject("JA#KEG01"))
+		MultiPlayerSync()
+		Wait(3)
+		FadeFromColor([20.0],0)
+		Wait(2)
+		EndCutSceneMode()
+		StartDialogueNoSet([PC])
+END
+
+

@@ -1,0 +1,15 @@
+IF
+  NumDeadGT("XvartH",7)
+  Global("XvartsDead","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("XvartsDead","GLOBAL",8)
+END
+
+IF
+  NumDeadGT("OgreS",1)
+  Global("OgresDead","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("OgresDead","GLOBAL",2)
+END

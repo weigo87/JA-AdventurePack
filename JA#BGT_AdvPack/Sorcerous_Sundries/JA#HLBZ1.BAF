@@ -1,0 +1,63 @@
+IF
+	Delay(7)
+	!See([ENEMY])
+	Allegiance(Myself,NEUTRAL)
+	ActionListEmpty()
+	!Global("JA#HLBMOVE","LOCALS",0)
+THEN
+	RESPONSE #65
+		Continue()
+	RESPONSE #35
+		SetGlobal("JA#HLBMOVE","LOCALS",0)
+		MoveToPoint([679.571])
+		Face(6)
+		Continue()
+END
+
+IF
+	Delay(9)
+	!See([ENEMY])
+	Allegiance(Myself,NEUTRAL)
+	ActionListEmpty()
+	!Global("JA#HLBMOVE","LOCALS",1)
+THEN
+	RESPONSE #75
+		Continue()
+	RESPONSE #25
+		SetGlobal("JA#HLBMOVE","LOCALS",1)
+		MoveToPoint([475.531])
+		Face(9)
+		Continue()
+END
+
+IF
+	Delay(11)
+	!See([ENEMY])
+	Allegiance(Myself,NEUTRAL)
+	ActionListEmpty()
+	!Global("JA#HLBMOVE","LOCALS",2)
+THEN
+	RESPONSE #80
+		Continue()
+	RESPONSE #20
+		SetGlobal("JA#HLBMOVE","LOCALS",2)
+		MoveToPoint([657.606])
+		Face(12)
+		Continue()
+END
+
+IF
+	Delay(12)
+	!See([ENEMY])
+	Allegiance(Myself,NEUTRAL)
+	ActionListEmpty()
+	!Global("JA#HLBMOVE","LOCALS",1)
+THEN
+	RESPONSE #90
+		Continue()
+	RESPONSE #10
+		RandomTurn()
+		Continue()
+END
+
+

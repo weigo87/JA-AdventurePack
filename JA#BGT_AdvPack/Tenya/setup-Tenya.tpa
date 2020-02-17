@@ -13,9 +13,15 @@ COPY ~JA#BGT_AdvPack/Tenya/JA#C02.ARE~ ~override~
 COPY ~JA#BGT_AdvPack/Tenya/JA#C03.ARE~ ~override~
 
 COPY ~JA#BGT_AdvPack/Tenya/JA#WATW1.ITM~ ~override~
+
 COPY ~JA#BGT_AdvPack/Tenya/JA#WATW1.CRE~ ~override~
 	SAY NAME1 @2111
 	SAY NAME2 @2111
+ACTION_IF GAME_IS ~bgt~ BEGIN
+	ACTION_IF NOT FILE_EXISTS ~t-wei01.wav~ BEGIN		//0xEF10 WATER_WEIRD
+		COPY ~JA#BGT_AdvPack/Tenya/WaterWeird~ ~override~
+	END
+END
 
 COPY ~JA#BGT_AdvPack/Tenya/JA#SUTY1.CRE~ ~override~
 COPY ~JA#BGT_AdvPack/Tenya/JA#SUTY2.CRE~ ~override~
