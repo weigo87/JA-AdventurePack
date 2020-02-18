@@ -1,7 +1,9 @@
 ///////////////////////////////////////////////////
 //ERWEITERTE TENYA-HANDLUNG & TEMPEL DER UMBERLEE
 ///////////////////////////////////////////////////
-
+ACTION_IF GAME_IS ~bgt~ AND NOT MOD_IS_INSTALLED ~setup-infinityanimations.tp2~ 0 BEGIN
+	FAIL @37
+END
 
 COPY ~JA#BGT_AdvPack/Tenya/JA#C02.ARE~ ~override~
 	PATCH_IF GAME_IS ~bgee eet~ BEGIN

@@ -1,6 +1,9 @@
 ////////////////////////////////////////////////////////////
 // Mini-Quest: "Das Rätsel um die verstummte Geisterstimme" 
 ////////////////////////////////////////////////////////////
+ACTION_IF GAME_IS ~bgt~ AND NOT MOD_IS_INSTALLED ~setup-infinityanimations.tp2~ 0 BEGIN
+	FAIL @37
+END
 
 COPY ~JA#BGT_AdvPack/Miniquest/JA#BEHOL.BAM~ ~override~
 COPY ~JA#BGT_AdvPack/Miniquest/JA#HRP01.BAM~ ~override~
