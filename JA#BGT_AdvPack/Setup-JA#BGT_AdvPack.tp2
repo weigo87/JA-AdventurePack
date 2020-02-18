@@ -122,10 +122,6 @@ INCLUDE ~JA#BGT_AdvPack/Fixes/setup-tweak.tpa~
 
 
 
-BEGIN ~Fixes~
-
-INCLUDE ~JA#BGT_AdvPack/Fixes/setup-fixes.tpa~
-
 /////////////////////////////////////////////////////////////
 //LAW-SYSTEM FRIENDLY ARM INN, ELFSONG TAVERN, BL. MERMAID
 /////////////////////////////////////////////////////////////
