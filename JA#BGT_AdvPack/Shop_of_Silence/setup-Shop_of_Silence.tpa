@@ -20,6 +20,14 @@ COMPILE ~JA#BGT_AdvPack/Shop_of_Silence/JA#STH01.D~
 COMPILE ~JA#BGT_AdvPack/Shop_of_Silence/JA#STH02.D~
 COMPILE ~JA#BGT_AdvPack/Shop_of_Silence/JA#SILC1.BAF~
 
+ACTION_IF !FILE_EXISTS ~JA#STHIE.CRE~ BEGIN
+	COPY ~JA#BGT_AdvPack/Suthie_Sthief/JA#STHIE.CRE~ ~override~
+		SAY NAME1 #1082 //~Dieb~ (string ref is true for BGT and BG:EE)
+		SAY NAME2 #1082 //~Dieb~ (string ref is true for BGT and BG:EE)
+	
+	COMPILE ~JA#BGT_AdvPack/Suthie_Sthief/JA#STHIE.D~
+END
+
 COPY ~JA#BGT_AdvPack/Shop_of_Silence/JA#STH01.CRE~ ~override~
 COPY ~JA#BGT_AdvPack/Shop_of_Silence/JA#STH02.CRE~ ~override~
 COPY ~JA#BGT_AdvPack/Shop_of_Silence/JA#MONGO.CRE~ ~override~
@@ -119,10 +127,10 @@ ACTION_IF GAME_IS ~eet bgee~ BEGIN
 		SAY NAME1 @44
 		SAY NAME2 @44
 		WRITE_EVALUATED_ASCII 0x280 ~Honk~ #32 // script name / DV
-	<<<<<<<< ...inlined/JA#Selenc_mongo.d
+	<<<<<<<< ...inlined/JA#Silenc_mongo.d
 	
 	REPLACE_TRANS_ACTION SILENC
 	BEGIN 8 END BEGIN 0 END ~CreateCreature("mongo",[661.372],NW)~ ~CreateCreature("Honk",[661.372],NW)~
 	>>>>>>>>
-	COMPILE EVALUATE_BUFFER ~...inlined/JA#Selenc_mongo.d~
+	COMPILE EVALUATE_BUFFER ~...inlined/JA#Silenc_mongo.d~
 END

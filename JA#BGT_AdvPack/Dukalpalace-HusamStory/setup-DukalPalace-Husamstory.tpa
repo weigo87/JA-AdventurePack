@@ -109,14 +109,14 @@ COPY_EXISTING ~%NBaldursGate_DucalPalace_L1%.ARE~ ~override~
 			WRITE_ASCII actors_offset + 0x48 ~JA#FLAM4~ #8
 			WRITE_ASCII actors_offset + 0x78 ~JA#FLM09~ #8
 		END
-		//Delete Nobles
-		FOR (cnt=BYTE_AT 0x58 -1; cnt>=0; --cnt) BEGIN
-			READ_ASCII SHORT_AT 0x54 +(0x110 * (cnt))+0x80 actors_filename (32) NULL
-			PATCH_IF ((~%actors_filename%~ STR_EQ  ~NOBW5~) OR (~%actors_filename%~ STR_EQ  ~NOBL12~)) BEGIN
-				LPF fj_are_structure
-					INT_VAR fj_delete_mode = EVAL %cnt%
-					STR_VAR fj_structure_type = actor
-				END
+	END	
+	//Delete Nobles
+	FOR (cnt=BYTE_AT 0x58 -1; cnt>=0; --cnt) BEGIN
+		READ_ASCII SHORT_AT 0x54 +(0x110 * (cnt))+0x80 actors_filename (32) NULL
+		PATCH_IF ((~%actors_filename%~ STR_EQ  ~NOBW5~) OR (~%actors_filename%~ STR_EQ  ~NOBL12~)) BEGIN
+			LPF fj_are_structure
+				INT_VAR fj_delete_mode = EVAL %cnt%
+				STR_VAR fj_structure_type = actor
 			END
 		END
 	END
@@ -374,13 +374,13 @@ COPY_EXISTING ~%NBaldursGate_DucalPalace_Cellar%.ARE~ ~override~
 			WRITE_SHORT actors_offset + 0x26        1072
 			WRITE_SHORT actors_offset + 0x34        14
 		END
-		FOR (cnt=BYTE_AT 0x58 -1; cnt>=0; --cnt) BEGIN
-			READ_ASCII SHORT_AT 0x54 +(0x110 * (cnt))+0x80 actors_filename (32) NULL
-			PATCH_IF (~%actors_filename%~ STR_EQ  ~PRISON~) BEGIN
-				LPF fj_are_structure
-					INT_VAR fj_delete_mode = EVAL %cnt%
-					STR_VAR fj_structure_type = actor
-				END
+	END
+	FOR (cnt=BYTE_AT 0x58 -1; cnt>=0; --cnt) BEGIN
+		READ_ASCII SHORT_AT 0x54 +(0x110 * (cnt))+0x80 actors_filename (32) NULL
+		PATCH_IF (~%actors_filename%~ STR_EQ  ~PRISON~) BEGIN
+			LPF fj_are_structure
+				INT_VAR fj_delete_mode = EVAL %cnt%
+				STR_VAR fj_structure_type = actor
 			END
 		END
 	END
@@ -473,7 +473,7 @@ COPY_EXISTING ~%NBaldursGate_DucalPalace_Cellar%.ARE~ ~override~
 	END
 	LPF fj_are_structure
 		INT_VAR
-		fj_type         = 1    //travel
+		fj_type         = 1    //info
 		fj_box_left     = 448
 		fj_box_top      = 354
 		fj_box_right    = 458
@@ -682,7 +682,7 @@ COPY_EXISTING ~%NBaldursGate_DucalPalace_L1%.BCS~ ~override~
 	DECOMPILE_AND_PATCH BEGIN
 		REPLACE_TEXTUALLY ~Global("SarevokBehavior","GLOBAL",0)~ ~False()~
 	END
-BUT_ONLY_IF_IT_CHANGES
+BUT_ONLY
 
 COPY_EXISTING ~%NEBaldursGate%.BCS~ ~override~
 	PATCH_IF GAME_IS ~bgt~ BEGIN
@@ -695,13 +695,13 @@ COPY_EXISTING ~%NEBaldursGate%.BCS~ ~override~
 			REPLACE_TEXTUALLY EXACT_MATCH ~CreateCreatureEffect("HUSAM2","",[199.2039],0)~ ~CreateCreatureEffect("HUSAM2","",[305.1950],3)~
 		END
 	END
-BUT_ONLY_IF_IT_CHANGES
+BUT_ONLY
 
 COPY_EXISTING ~LIIA.BCS~ ~override~
 	DECOMPILE_AND_PATCH BEGIN
 		REPLACE_TEXTUALLY EXACT_MATCH ~See([ENEMY])~ ~False()~
 	END
-BUT_ONLY_IF_IT_CHANGES
+BUT_ONLY
 
 
 

@@ -1,7 +1,8 @@
 //////////////////////////////////////////////////////
 //Add candels and torches
 //////////////////////////////////////////////////////
-
+ACTION_CLEAR_ARRAY ~x_coord~
+ACTION_CLEAR_ARRAY ~y_coord~
 /////////////////////////////////////////////////////////////
 //LAW-SYSTEM FRIENDLY ARM INN, ELFSONG TAVERN, BL. MERMAID
 /////////////////////////////////////////////////////////////
@@ -23,6 +24,8 @@ COPY_EXISTING ~%FriendlyArmInn_L1%.ARE~ ~override~
 			fj_bam_resref = FLAME2S
 		END
 	END
+	CLEAR_ARRAY ~x_coord~
+	CLEAR_ARRAY ~y_coord~
 BUT_ONLY
 
 COPY_EXISTING ~%FriendlyArmInn_L2%.ARE~ ~override~
@@ -50,6 +53,8 @@ COPY_EXISTING ~%FriendlyArmInn_L2%.ARE~ ~override~
 			fj_bam_resref = FLAME2S
 		END
 	END
+	CLEAR_ARRAY ~x_coord~
+	CLEAR_ARRAY ~y_coord~
 BUT_ONLY
 
 COPY_EXISTING ~%FriendlyArmInn_L3%.ARE~ ~override~
@@ -77,6 +82,8 @@ COPY_EXISTING ~%FriendlyArmInn_L3%.ARE~ ~override~
 			fj_bam_resref = FLAME2S
 		END
 	END
+	CLEAR_ARRAY ~x_coord~
+	CLEAR_ARRAY ~y_coord~
 BUT_ONLY
 
 /////////////////////////
@@ -117,6 +124,8 @@ COPY_EXISTING ~%NBaldursGate_RamazithsTower_L6%.ARE~ ~override~
 			fj_bam_resref = FLAME2S
 		END
 	END
+	CLEAR_ARRAY ~x_coord~
+	CLEAR_ARRAY ~y_coord~
 BUT_ONLY
 COPY_EXISTING ~%NBaldursGate_RamazithsTower_L2%.ARE~ ~override~
 	PATCH_DEFINE_ARRAY x_coord BEGIN 328 254 END
@@ -134,6 +143,8 @@ COPY_EXISTING ~%NBaldursGate_RamazithsTower_L2%.ARE~ ~override~
 			fj_bam_resref = BUTRFLY
 		END
 	END
+	CLEAR_ARRAY ~x_coord~
+	CLEAR_ARRAY ~y_coord~
 BUT_ONLY
 COPY_EXISTING ~%NBaldursGate_RamazithsTower_L3%.ARE~ ~override~
 	PATCH_DEFINE_ARRAY x_coord BEGIN 176 265 329 END
@@ -151,6 +162,8 @@ COPY_EXISTING ~%NBaldursGate_RamazithsTower_L3%.ARE~ ~override~
 			fj_bam_resref = BUTRFLY
 		END
 	END
+	CLEAR_ARRAY ~x_coord~
+	CLEAR_ARRAY ~y_coord~
 BUT_ONLY
 COPY_EXISTING ~%NBaldursGate_RamazithsTower_L4%.ARE~ ~override~
 	PATCH_DEFINE_ARRAY x_coord BEGIN 344 156 162 END
@@ -168,6 +181,8 @@ COPY_EXISTING ~%NBaldursGate_RamazithsTower_L4%.ARE~ ~override~
 			fj_bam_resref = BUTRFLY
 		END
 	END
+	CLEAR_ARRAY ~x_coord~
+	CLEAR_ARRAY ~y_coord~
 BUT_ONLY
 COPY_EXISTING ~%NBaldursGate_RamazithsTower_L5%.ARE~ ~override~
 	PATCH_DEFINE_ARRAY x_coord BEGIN 333 END
@@ -185,6 +200,8 @@ COPY_EXISTING ~%NBaldursGate_RamazithsTower_L5%.ARE~ ~override~
 			fj_bam_resref = BUTRFLY
 		END
 	END
+	CLEAR_ARRAY ~x_coord~
+	CLEAR_ARRAY ~y_coord~
 BUT_ONLY
 
 ///////////////////////////////////////////////////////////////////////
@@ -209,6 +226,9 @@ COPY_EXISTING ~%NBaldursGate_DucalPalace_L1%.ARE~ ~override~
 			fj_bam_resref = FLAME2S
 		END
 	END
+	CLEAR_ARRAY ~x_coord~
+	CLEAR_ARRAY ~y_coord~
+BUT_ONLY
 
 COPY_EXISTING ~%NBaldursGate_DucalPalace_L2%.ARE~ ~override~
 	//Add candles and torches
@@ -227,12 +247,14 @@ COPY_EXISTING ~%NBaldursGate_DucalPalace_L2%.ARE~ ~override~
 			fj_bam_resref = FLAME2S
 		END
 	END
+	CLEAR_ARRAY ~x_coord~
+	CLEAR_ARRAY ~y_coord~
 BUT_ONLY
 
 COPY_EXISTING ~%NBaldursGate_DucalPalace_L3%.ARE~ ~override~
 	//Add candles and torches
-	PATCH_DEFINE_ARRAY x_coord BEGIN 1143 1135 1037 327 334 725 728 732 803 806 809 884 888 892 END
-	PATCH_DEFINE_ARRAY y_coord BEGIN 746  751  612  179 175 361 362 365 414 416 419 473 474 476 END
+	PATCH_DEFINE_ARRAY x_coord BEGIN 708 332 617 END
+	PATCH_DEFINE_ARRAY y_coord BEGIN 560 385 291 END
 	PATCH_PHP_EACH x_coord AS index => x BEGIN
 		LPF fj_are_structure
 		  INT_VAR
@@ -246,6 +268,8 @@ COPY_EXISTING ~%NBaldursGate_DucalPalace_L3%.ARE~ ~override~
 			fj_bam_resref = FLAME2S
 		END
 	END
+	CLEAR_ARRAY ~x_coord~
+	CLEAR_ARRAY ~y_coord~
 BUT_ONLY
 
 COPY_EXISTING ~%NBaldursGate_DucalPalace_Cellar%.ARE~ ~override~
@@ -265,6 +289,8 @@ COPY_EXISTING ~%NBaldursGate_DucalPalace_Cellar%.ARE~ ~override~
 			fj_bam_resref = FLAME2S
 		END
 	END
+	CLEAR_ARRAY ~x_coord~
+	CLEAR_ARRAY ~y_coord~
 BUT_ONLY
 
 //////////////////////////////
@@ -288,6 +314,8 @@ COPY_EXISTING ~%SWBaldursGate_SevenSuns_L1%.ARE~ ~override~
 			fj_bam_resref = FLAME2S
 		END
 	END
+	CLEAR_ARRAY ~x_coord~
+	CLEAR_ARRAY ~y_coord~
 BUT_ONLY
 
 COPY_EXISTING ~%SWBaldursGate_SevenSuns_L2%.ARE~ ~override~
@@ -307,6 +335,8 @@ COPY_EXISTING ~%SWBaldursGate_SevenSuns_L2%.ARE~ ~override~
 			fj_bam_resref = FLAME2S
 		END
 	END
+	CLEAR_ARRAY ~x_coord~
+	CLEAR_ARRAY ~y_coord~
 BUT_ONLY
 
 COPY_EXISTING ~%SWBaldursGate_SevenSuns_Cellar%.ARE~ ~override~
@@ -326,6 +356,8 @@ COPY_EXISTING ~%SWBaldursGate_SevenSuns_Cellar%.ARE~ ~override~
 			fj_bam_resref = FLAME2S
 		END
 	END
+	CLEAR_ARRAY ~x_coord~
+	CLEAR_ARRAY ~y_coord~
 BUT_ONLY
 
 ///////////////////////////////////
@@ -348,6 +380,8 @@ COPY_EXISTING ~%SWBaldursGate_MerchantLeague_L1%.ARE~ ~override~
 			fj_bam_resref = FLAME2S
 		END
 	END
+	CLEAR_ARRAY ~x_coord~
+	CLEAR_ARRAY ~y_coord~
 BUT_ONLY
 	
 COPY_EXISTING ~%SWBaldursGate_MerchantLeague_L2%.ARE~ ~override~
@@ -367,6 +401,8 @@ COPY_EXISTING ~%SWBaldursGate_MerchantLeague_L2%.ARE~ ~override~
 			fj_bam_resref = FLAME2S
 		END
 	END
+	CLEAR_ARRAY ~x_coord~
+	CLEAR_ARRAY ~y_coord~
 BUT_ONLY
 
 COPY_EXISTING ~%SWBaldursGate_MerchantLeague_L3%.ARE~ ~override~
@@ -386,4 +422,6 @@ COPY_EXISTING ~%SWBaldursGate_MerchantLeague_L3%.ARE~ ~override~
 			fj_bam_resref = FLAME2S
 		END
 	END
+	CLEAR_ARRAY ~x_coord~
+	CLEAR_ARRAY ~y_coord~
 BUT_ONLY
