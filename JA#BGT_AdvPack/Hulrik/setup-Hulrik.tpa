@@ -16,22 +16,9 @@ COPY_EXISTING ~%LonelyPeaks%.BCS~ ~override~
 	END
 BUT_ONLY
 
-ACTION_IF GAME_IS ~bgee eet~ BEGIN
-	COPY_EXISTING ~%LonelyPeaks%.ARE~ ~override~
-		READ_ASCII 0x94 "script"
-	ACTION_IF !FILE_EXISTS_IN_GAME "%script%.bcs" BEGIN
-		COPY ~JA#BGT_AdvPack/Hulrik/AR3300_b.baf~ ~JA#BGT_AdvPack/Hulrik/%LonelyPeaks%.baf~
-		COMPILE ~JA#BGT_AdvPack/Hulrik/%LonelyPeaks%.baf~
-	END ELSE BEGIN
-		LAF extend_area_script 
-			STR_VAR area="%LonelyPeaks%" 
-					bottom="JA#BGT_AdvPack/Hulrik/AR3300_b.baf"
-		END
-	END
+LAF extend_area_script 
+	STR_VAR area="%LonelyPeaks%" 
+			bottom="JA#BGT_AdvPack/Hulrik/AR3300_b.baf"
 END
 
-COPY_EXISTING ~XvartH.CRE~ ~override~
-			~OgreS.CRE~ ~override~
-	WRITE_ASCIIE 0x280  ~%SOURCE_RES%~ 	#32	//Scriptname
-	
 
