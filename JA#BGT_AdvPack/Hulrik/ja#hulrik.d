@@ -13,8 +13,9 @@ ADD_STATE_TRIGGER HULRIK 4
 
 APPEND HULRIK
 
+/* dialogue after first dialogue about Xvarts is done - therefor for Global("XvartsDead","GLOBAL",9) */
 IF WEIGHT #-1
-~GlobalGT("XvartsDead","GLOBAL",7)
+~GlobalGT("XvartsDead","GLOBAL",8)
 OR(2)
 Dead("Mulahey")
 Dead("Nexlit")
@@ -53,17 +54,21 @@ SAY @11
 IF ~~ THEN DO ~SetGlobal("JA#HULRIK","LOCALS",1)ReputationInc(1)~ EXIT
 END
 
-IF ~GlobalGT("XvartsDead","GLOBAL",7)Global("JA#HULRIK","LOCALS",1)RandomNum(3,1)~ THEN BEGIN JA#HULRIK_7
+/* generic dialogue after dialogue about Xvarts is done - therefor for Global("XvartsDead","GLOBAL",9) */
+IF WEIGHT #-1
+~GlobalGT("XvartsDead","GLOBAL",8)Global("JA#HULRIK","LOCALS",1)RandomNum(3,1)~ THEN BEGIN JA#HULRIK_7
 SAY @12
 IF ~~ THEN EXIT
 END
 
-IF ~GlobalGT("XvartsDead","GLOBAL",7)Global("JA#HULRIK","LOCALS",1)RandomNum(3,2)~ THEN BEGIN JA#HULRIK_8
+IF WEIGHT #-1
+~GlobalGT("XvartsDead","GLOBAL",8)Global("JA#HULRIK","LOCALS",1)RandomNum(3,2)~ THEN BEGIN JA#HULRIK_8
 SAY @13
 IF ~~ THEN EXIT
 END
 
-IF ~GlobalGT("XvartsDead","GLOBAL",7)Global("JA#HULRIK","LOCALS",1)RandomNum(3,3)~ THEN BEGIN JA#HULRIK_9
+IF WEIGHT #-1
+~GlobalGT("XvartsDead","GLOBAL",8)Global("JA#HULRIK","LOCALS",1)RandomNum(3,3)~ THEN BEGIN JA#HULRIK_9
 SAY @14
 IF ~~ THEN EXIT
 END

@@ -122,7 +122,7 @@ LANGUAGE ~English~
 //LAW-SYSTEM FRIENDLY ARM INN, ELFSONG TAVERN, BL. MERMAID
 /////////////////////////////////////////////////////////////
 
-BEGIN @1 DESIGNATED 1
+BEGIN ~Extended Tavern Guard System~ DESIGNATED 1
 
 INCLUDE ~JA#BGT_AdvPack/Lawsystem/setup-lawsystem.tpa~
 
